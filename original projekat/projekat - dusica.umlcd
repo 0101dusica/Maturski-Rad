@@ -1,0 +1,1306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_lR-o8I_9Eeur1a3JGqqQQQ">
+  <modelElement href="projekat%20-%20dusica.uml#_lfPB0I_9Eeur1a3JGqqQQQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_lnXDEI_9Eeur1a3JGqqQQQ" source="_lnXDGY_9Eeur1a3JGqqQQQ">
+    <modelElement href="projekat%20-%20dusica.uml#_ljf2wI_9Eeur1a3JGqqQQQ"/>
+    <stereotypes xmi:id="_lnXDEY_9Eeur1a3JGqqQQQ" name="Reference">
+      <modelElement href="projekat%20-%20dusica.uml#_ljgd0I_9Eeur1a3JGqqQQQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_lnXDEo_9Eeur1a3JGqqQQQ" text=""/>
+    <sourceRole xmi:id="_lnXDE4_9Eeur1a3JGqqQQQ" aggregationKind="NONE" name="">
+      <modelElement href="projekat%20-%20dusica.uml#_ljf2wY_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_lnXDFI_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lnXDFY_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_lnXDFo_9Eeur1a3JGqqQQQ" aggregationKind="NONE" name="namirnice" navigable="true">
+      <modelElement href="projekat%20-%20dusica.uml#_ljM70I_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_lnXDF4_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lnXDGI_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_lnfl8I_9Eeur1a3JGqqQQQ" sourceAnchor="814.0,208.0" targetAnchor="408.0,192.0" superClass="_lnMrAI_9Eeur1a3JGqqQQQ" subClass="_lnhbII_9Eeur1a3JGqqQQQ">
+    <modelElement href="projekat%20-%20dusica.uml#_liwP4I_9Eeur1a3JGqqQQQ"/>
+    <bendpoints xmi:id="_lyCCAY_9Eeur1a3JGqqQQQ" sourceX="1479" targetX="822" targetY="1323"/>
+    <bendpoints xmi:id="_lyCpEI_9Eeur1a3JGqqQQQ" sourceX="1479" sourceY="-872" targetX="822" targetY="451"/>
+    <bendpoints xmi:id="_lyCpEY_9Eeur1a3JGqqQQQ" sourceX="657" sourceY="-872" targetY="451"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_lnoI0I_9Eeur1a3JGqqQQQ" source="_lnrMKI_9Eeur1a3JGqqQQQ">
+    <modelElement href="projekat%20-%20dusica.uml#_ljhr8I_9Eeur1a3JGqqQQQ"/>
+    <stereotypes xmi:id="_lnp-AI_9Eeur1a3JGqqQQQ" name="Reference">
+      <modelElement href="projekat%20-%20dusica.uml#_ljhr8o_9Eeur1a3JGqqQQQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_lnpW8I_9Eeur1a3JGqqQQQ" text=""/>
+    <sourceRole xmi:id="_lnpW8Y_9Eeur1a3JGqqQQQ" aggregationKind="NONE" name="">
+      <modelElement href="projekat%20-%20dusica.uml#_ljhr8Y_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_lnp-Ao_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lnp-AY_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_lnpW8o_9Eeur1a3JGqqQQQ" aggregationKind="NONE" name="stolovi" navigable="true">
+      <modelElement href="projekat%20-%20dusica.uml#_ljTpgY_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_lnp-BI_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lnp-A4_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_lnrMII_9Eeur1a3JGqqQQQ" sourceAnchor="0.0,140.0" targetAnchor="252.0,192.0" target="_lnrMKI_9Eeur1a3JGqqQQQ" source="_ln_VMI_9Eeur1a3JGqqQQQ">
+    <modelElement href="projekat%20-%20dusica.uml#_ljdago_9Eeur1a3JGqqQQQ"/>
+    <bendpoints xmi:id="_lyCpE4_9Eeur1a3JGqqQQQ" sourceX="-470" targetY="195"/>
+    <nameVisual xmi:id="_lnrMIY_9Eeur1a3JGqqQQQ" text="">
+      <visualProperties xmi:id="_lyFFUY_9Eeur1a3JGqqQQQ" position="356.9505077690634,-19.297130399404864"/>
+    </nameVisual>
+    <sourceRole xmi:id="_lnrMIo_9Eeur1a3JGqqQQQ" aggregationKind="NONE" name="menadzer" navigable="true">
+      <modelElement href="projekat%20-%20dusica.uml#_ljUQkY_9Eeur1a3JGqqQQQ"/>
+      <visualProperties xmi:id="_lyFFUI_9Eeur1a3JGqqQQQ" position="-92.41225738793844,-42.368593431668614"/>
+      <visibility xmi:id="_lnrMI4_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lnrMJI_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_lnrMJY_9Eeur1a3JGqqQQQ" aggregationKind="NONE" name="">
+      <modelElement href="projekat%20-%20dusica.uml#_ljdag4_9Eeur1a3JGqqQQQ"/>
+      <visualProperties xmi:id="_lyFsYI_9Eeur1a3JGqqQQQ" position="283.4526121557913,152.8238601780497"/>
+      <visibility xmi:id="_lnrMJo_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lnrMJ4_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_lnwrsI_9Eeur1a3JGqqQQQ" sourceAnchor="0.0,166.0" targetAnchor="118.0,248.0" target="_lnwruI_9Eeur1a3JGqqQQQ" source="_ln4AcI_9Eeur1a3JGqqQQQ">
+    <modelElement href="projekat%20-%20dusica.uml#_ljeBkI_9Eeur1a3JGqqQQQ"/>
+    <bendpoints xmi:id="_lyCpEo_9Eeur1a3JGqqQQQ" sourceX="-160" targetY="221"/>
+    <nameVisual xmi:id="_lnwrsY_9Eeur1a3JGqqQQQ" text="">
+      <visualProperties xmi:id="_lyEeQI_9Eeur1a3JGqqQQQ" position="53.4839121723673,-15.561552812808713"/>
+    </nameVisual>
+    <sourceRole xmi:id="_lnwrso_9Eeur1a3JGqqQQQ" aggregationKind="NONE" name="racun" navigable="true">
+      <modelElement href="projekat%20-%20dusica.uml#_ljVesY_9Eeur1a3JGqqQQQ"/>
+      <visualProperties xmi:id="_lyD3Mo_9Eeur1a3JGqqQQQ" position="-71.10978844365843,-40.26114000116263"/>
+      <visibility xmi:id="_lnwrs4_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lnwrtI_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_lnwrtY_9Eeur1a3JGqqQQQ" aggregationKind="NONE" name="">
+      <modelElement href="projekat%20-%20dusica.uml#_ljeBkY_9Eeur1a3JGqqQQQ"/>
+      <visualProperties xmi:id="_lyEeQY_9Eeur1a3JGqqQQQ" position="-11.605207836933914,181.34519906142827"/>
+      <visibility xmi:id="_lnwrto_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lnwrt4_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ln09II_9Eeur1a3JGqqQQQ" sourceAnchor="407.0,0.0" targetAnchor="0.0,196.0" target="_ln4AcI_9Eeur1a3JGqqQQQ" source="_lnhbII_9Eeur1a3JGqqQQQ">
+    <modelElement href="projekat%20-%20dusica.uml#_ljdagI_9Eeur1a3JGqqQQQ"/>
+    <bendpoints xmi:id="_lyCCAI_9Eeur1a3JGqqQQQ" sourceY="-191" targetX="-503"/>
+    <nameVisual xmi:id="_ln1kMI_9Eeur1a3JGqqQQQ" text="">
+      <visualProperties xmi:id="_lyD3MI_9Eeur1a3JGqqQQQ" position="4.4471831612822825,-4.069693360857855"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ln1kMY_9Eeur1a3JGqqQQQ" aggregationKind="NONE" name="konobar" navigable="true">
+      <modelElement href="projekat%20-%20dusica.uml#_ljR0U4_9Eeur1a3JGqqQQQ"/>
+      <visualProperties xmi:id="_lyDQIo_9Eeur1a3JGqqQQQ" position="-31.517977348502427,-79.34418001346057"/>
+      <visibility xmi:id="_ln2yUY_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_ln2yUI_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ln1kMo_9Eeur1a3JGqqQQQ" aggregationKind="NONE" name="">
+      <modelElement href="projekat%20-%20dusica.uml#_ljdagY_9Eeur1a3JGqqQQQ"/>
+      <visualProperties xmi:id="_lyD3MY_9Eeur1a3JGqqQQQ" position="-500.9459264327221,-147.84802354697263"/>
+      <visibility xmi:id="_ln2yU4_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_ln2yUo_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ln1kM4_9Eeur1a3JGqqQQQ" source="_ln4AcI_9Eeur1a3JGqqQQQ">
+    <modelElement href="projekat%20-%20dusica.uml#_ljhE4Y_9Eeur1a3JGqqQQQ"/>
+    <stereotypes xmi:id="_ln2yV4_9Eeur1a3JGqqQQQ" name="Reference">
+      <modelElement href="projekat%20-%20dusica.uml#_ljhE44_9Eeur1a3JGqqQQQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ln2yVI_9Eeur1a3JGqqQQQ" text=""/>
+    <sourceRole xmi:id="_ln2yVY_9Eeur1a3JGqqQQQ" aggregationKind="NONE" name="">
+      <modelElement href="projekat%20-%20dusica.uml#_ljhE4o_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_ln3ZYY_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_ln3ZYI_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ln2yVo_9Eeur1a3JGqqQQQ" aggregationKind="NONE" name="proizvodi" navigable="true">
+      <modelElement href="projekat%20-%20dusica.uml#_ljSbYI_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_ln3ZY4_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_ln3ZYo_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_ln9gAI_9Eeur1a3JGqqQQQ" sourceAnchor="0.0,110.0" targetAnchor="408.0,192.0" superClass="_lnMrAI_9Eeur1a3JGqqQQQ" subClass="_ln_VMI_9Eeur1a3JGqqQQQ">
+    <modelElement href="projekat%20-%20dusica.uml#_liz6QI_9Eeur1a3JGqqQQQ"/>
+    <bendpoints xmi:id="_lyCpFI_9Eeur1a3JGqqQQQ" sourceX="-404" targetX="-201" targetY="591"/>
+    <bendpoints xmi:id="_lyDQII_9Eeur1a3JGqqQQQ" sourceX="-404" sourceY="-140" targetX="-201" targetY="451"/>
+    <bendpoints xmi:id="_lyDQIY_9Eeur1a3JGqqQQQ" sourceX="-203" sourceY="-140" targetY="451"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_loCYgI_9Eeur1a3JGqqQQQ" source="_loE0wI_9Eeur1a3JGqqQQQ">
+    <modelElement href="projekat%20-%20dusica.uml#_ljgd0Y_9Eeur1a3JGqqQQQ"/>
+    <stereotypes xmi:id="_loDmo4_9Eeur1a3JGqqQQQ" name="Reference">
+      <modelElement href="projekat%20-%20dusica.uml#_ljhE4I_9Eeur1a3JGqqQQQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_loDmoI_9Eeur1a3JGqqQQQ" text=""/>
+    <sourceRole xmi:id="_loDmoY_9Eeur1a3JGqqQQQ" aggregationKind="NONE" name="">
+      <modelElement href="projekat%20-%20dusica.uml#_ljgd0o_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_loENsY_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_loENsI_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_loDmoo_9Eeur1a3JGqqQQQ" aggregationKind="NONE" name="namirnice" navigable="true">
+      <modelElement href="projekat%20-%20dusica.uml#_ljPYEY_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_loENs4_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_loENso_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_qfDKwI_9Eeur1a3JGqqQQQ" superClass="_qfDx0I_9Eeur1a3JGqqQQQ" subClass="_lnQ8cI_9Eeur1a3JGqqQQQ">
+    <modelElement href="projekat%20-%20dusica.uml#_li_gco_9Eeur1a3JGqqQQQ"/>
+    <visualProperties xmi:id="_qfDx1I_9Eeur1a3JGqqQQQ" position="1795.0,92.0"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_lnMrAI_9Eeur1a3JGqqQQQ" name="Osoba" abstractClass="true" subclassedBy="_lnfl8I_9Eeur1a3JGqqQQQ _ln9gAI_9Eeur1a3JGqqQQQ">
+    <modelElement href="projekat%20-%20dusica.uml#_lgb7sI_9Eeur1a3JGqqQQQ"/>
+    <visualProperties xmi:id="_lnMrAY_9Eeur1a3JGqqQQQ" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_lnMrAo_9Eeur1a3JGqqQQQ" label="+"/>
+    <attributes xmi:id="_lnMrA4_9Eeur1a3JGqqQQQ" name="ime">
+      <modelElement href="projekat%20-%20dusica.uml#_ljRNQY_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_lnMrBI_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lnMrBY_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <type xmi:id="_lnMrBo_9Eeur1a3JGqqQQQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lnMrB4_9Eeur1a3JGqqQQQ" name="prezime">
+      <modelElement href="projekat%20-%20dusica.uml#_ljR0UI_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_lnMrCI_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lnMrCY_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <type xmi:id="_lnMrCo_9Eeur1a3JGqqQQQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_lnMrC4_9Eeur1a3JGqqQQQ" name="Osoba">
+      <modelElement href="projekat%20-%20dusica.uml#_lgciwI_9Eeur1a3JGqqQQQ"/>
+      <keywords xmi:id="_lnMrDI_9Eeur1a3JGqqQQQ" keyword="create"/>
+      <stereotypes xmi:id="_lnMrDY_9Eeur1a3JGqqQQQ" name="LegacyStyledElement">
+        <modelElement href="projekat%20-%20dusica.uml#_lgdJ0I_9Eeur1a3JGqqQQQ"/>
+      </stereotypes>
+      <visibility xmi:id="_lnMrDo_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lnMrD4_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lnMrEI_9Eeur1a3JGqqQQQ">
+        <modelElement href="projekat%20-%20dusica.uml#_lgdJ0Y_9Eeur1a3JGqqQQQ"/>
+        <type xmi:id="_lnMrEY_9Eeur1a3JGqqQQQ" name="Osoba">
+          <modelElement href="projekat%20-%20dusica.uml#_lgb7sI_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_lnMrEo_9Eeur1a3JGqqQQQ" name="Osoba">
+      <modelElement href="projekat%20-%20dusica.uml#_lgdJ0o_9Eeur1a3JGqqQQQ"/>
+      <keywords xmi:id="_lnMrE4_9Eeur1a3JGqqQQQ" keyword="create"/>
+      <visibility xmi:id="_lnNSEI_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lnNSEY_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lnNSEo_9Eeur1a3JGqqQQQ">
+        <modelElement href="projekat%20-%20dusica.uml#_lgdJ14_9Eeur1a3JGqqQQQ"/>
+        <type xmi:id="_lnNSE4_9Eeur1a3JGqqQQQ" name="Osoba">
+          <modelElement href="projekat%20-%20dusica.uml#_lgb7sI_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lnNSFI_9Eeur1a3JGqqQQQ" name="ime">
+        <modelElement href="projekat%20-%20dusica.uml#_lgdJ04_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lnNSFY_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lnNSFo_9Eeur1a3JGqqQQQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lnNSF4_9Eeur1a3JGqqQQQ" name="prezime">
+        <modelElement href="projekat%20-%20dusica.uml#_lgdJ1I_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lnNSGI_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lnNSGY_9Eeur1a3JGqqQQQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lnNSGo_9Eeur1a3JGqqQQQ" name="predstaviSe">
+      <modelElement href="projekat%20-%20dusica.uml#_lgdw4I_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_lnNSG4_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lnNSHI_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_lnTYsI_9Eeur1a3JGqqQQQ" name="FileNotFoundException">
+    <modelElement href="projekat%20-%20dusica.uml#_lidU8I_9Eeur1a3JGqqQQQ"/>
+    <visualProperties xmi:id="_lnTYsY_9Eeur1a3JGqqQQQ" position="1691.0,527.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_lnTYso_9Eeur1a3JGqqQQQ" name="Reference">
+      <modelElement href="projekat%20-%20dusica.uml#_lidU8Y_9Eeur1a3JGqqQQQ"/>
+    </stereotypes>
+    <visibility xmi:id="_lnTYs4_9Eeur1a3JGqqQQQ" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_lnXDGY_9Eeur1a3JGqqQQQ" name="Cenovnik" associationsOut="_lnXDEI_9Eeur1a3JGqqQQQ">
+    <modelElement href="projekat%20-%20dusica.uml#_lgGkgI_9Eeur1a3JGqqQQQ"/>
+    <visualProperties xmi:id="_lnXDGo_9Eeur1a3JGqqQQQ" position="1429.0,676.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_lnXDG4_9Eeur1a3JGqqQQQ" label="+"/>
+    <attributes xmi:id="_lnXDHI_9Eeur1a3JGqqQQQ" defaultValue="new ArrayList&lt;GotoviProizvodi>()" name="namirnice">
+      <modelElement href="projekat%20-%20dusica.uml#_ljM70I_9Eeur1a3JGqqQQQ"/>
+      <stereotypes xmi:id="_lnXDHY_9Eeur1a3JGqqQQQ" name="Generics">
+        <modelElement href="projekat%20-%20dusica.uml#_ljOJ8I_9Eeur1a3JGqqQQQ"/>
+      </stereotypes>
+      <visibility xmi:id="_lnXDHo_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lnXDH4_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <type xmi:id="_lnXDII_9Eeur1a3JGqqQQQ" name="ArrayList">
+        <modelElement href="projekat%20-%20dusica.uml#_lifKI4_9Eeur1a3JGqqQQQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_lnXDIY_9Eeur1a3JGqqQQQ" name="Cenovnik">
+      <modelElement href="projekat%20-%20dusica.uml#_lgHLkI_9Eeur1a3JGqqQQQ"/>
+      <keywords xmi:id="_lnXDIo_9Eeur1a3JGqqQQQ" keyword="create"/>
+      <stereotypes xmi:id="_lnXDI4_9Eeur1a3JGqqQQQ" name="LegacyStyledElement">
+        <modelElement href="projekat%20-%20dusica.uml#_lgHyoo_9Eeur1a3JGqqQQQ"/>
+      </stereotypes>
+      <visibility xmi:id="_lnXDJI_9Eeur1a3JGqqQQQ" label="~"/>
+      <cardinality xmi:id="_lnXDJY_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lnXDJo_9Eeur1a3JGqqQQQ">
+        <modelElement href="projekat%20-%20dusica.uml#_lgIZsI_9Eeur1a3JGqqQQQ"/>
+        <type xmi:id="_lnXDJ4_9Eeur1a3JGqqQQQ" name="Cenovnik">
+          <modelElement href="projekat%20-%20dusica.uml#_lgGkgI_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_lnXDKI_9Eeur1a3JGqqQQQ" name="prozorZaPrikazCenovnika">
+      <modelElement href="projekat%20-%20dusica.uml#_ljAHgI_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_lnXDKY_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lnXDKo_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_lnXDK4_9Eeur1a3JGqqQQQ" name="vCenovnik">
+        <modelElement href="projekat%20-%20dusica.uml#_ljAHgY_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lnXDLI_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lnXDLY_9Eeur1a3JGqqQQQ" name="VBox">
+          <modelElement href="projekat%20-%20dusica.uml#_linF8Y_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lnXDLo_9Eeur1a3JGqqQQQ" name="menadzerProgram">
+        <modelElement href="projekat%20-%20dusica.uml#_ljAHgo_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lnXDL4_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lnXDMI_9Eeur1a3JGqqQQQ" name="Scene">
+          <modelElement href="projekat%20-%20dusica.uml#_lihmYY_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lnXDMY_9Eeur1a3JGqqQQQ" name="stage">
+        <modelElement href="projekat%20-%20dusica.uml#_ljAHg4_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lnXDMo_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lnXDM4_9Eeur1a3JGqqQQQ" name="Stage">
+          <modelElement href="projekat%20-%20dusica.uml#_lioUEY_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lnXDNI_9Eeur1a3JGqqQQQ" name="prozorZaPrikazPica">
+      <modelElement href="projekat%20-%20dusica.uml#_ljAukI_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_lnXDNY_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lnXDNo_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_lnXDN4_9Eeur1a3JGqqQQQ" name="vCenovnik">
+        <modelElement href="projekat%20-%20dusica.uml#_ljAukY_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lnXDOI_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lnXDOY_9Eeur1a3JGqqQQQ" name="VBox">
+          <modelElement href="projekat%20-%20dusica.uml#_linF8Y_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lnXDOo_9Eeur1a3JGqqQQQ" name="menadzerProgram">
+        <modelElement href="projekat%20-%20dusica.uml#_ljAuko_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lnXDO4_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lnXDPI_9Eeur1a3JGqqQQQ" name="Scene">
+          <modelElement href="projekat%20-%20dusica.uml#_lihmYY_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lnXDPY_9Eeur1a3JGqqQQQ" name="stage">
+        <modelElement href="projekat%20-%20dusica.uml#_ljAuk4_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lnXDPo_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lnXDP4_9Eeur1a3JGqqQQQ" name="Stage">
+          <modelElement href="projekat%20-%20dusica.uml#_lioUEY_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lnXDQI_9Eeur1a3JGqqQQQ" name="dodajPice">
+      <modelElement href="projekat%20-%20dusica.uml#_ljBVoI_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_lnXDQY_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lnXDQo_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_lnXDQ4_9Eeur1a3JGqqQQQ" name="vCenovnik">
+        <modelElement href="projekat%20-%20dusica.uml#_ljBVoY_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lnXDRI_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lnXDRY_9Eeur1a3JGqqQQQ" name="VBox">
+          <modelElement href="projekat%20-%20dusica.uml#_linF8Y_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lnXDRo_9Eeur1a3JGqqQQQ" name="menadzerProgram">
+        <modelElement href="projekat%20-%20dusica.uml#_ljBVoo_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lnXDR4_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lnXDSI_9Eeur1a3JGqqQQQ" name="Scene">
+          <modelElement href="projekat%20-%20dusica.uml#_lihmYY_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lnXDSY_9Eeur1a3JGqqQQQ" name="stage">
+        <modelElement href="projekat%20-%20dusica.uml#_ljBVo4_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lnXDSo_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lnXDS4_9Eeur1a3JGqqQQQ" name="Stage">
+          <modelElement href="projekat%20-%20dusica.uml#_lioUEY_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lnXqII_9Eeur1a3JGqqQQQ" name="prozorZaPrikazHrane">
+      <modelElement href="projekat%20-%20dusica.uml#_ljB8sI_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_lnXqIY_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lnXqIo_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_lnXqI4_9Eeur1a3JGqqQQQ" name="vCenovnik">
+        <modelElement href="projekat%20-%20dusica.uml#_ljB8sY_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lnXqJI_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lnXqJY_9Eeur1a3JGqqQQQ" name="VBox">
+          <modelElement href="projekat%20-%20dusica.uml#_linF8Y_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lnXqJo_9Eeur1a3JGqqQQQ" name="menadzerProgram">
+        <modelElement href="projekat%20-%20dusica.uml#_ljB8so_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lnXqJ4_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lnXqKI_9Eeur1a3JGqqQQQ" name="Scene">
+          <modelElement href="projekat%20-%20dusica.uml#_lihmYY_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lnXqKY_9Eeur1a3JGqqQQQ" name="stage">
+        <modelElement href="projekat%20-%20dusica.uml#_ljB8s4_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lnXqKo_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lnXqK4_9Eeur1a3JGqqQQQ" name="Stage">
+          <modelElement href="projekat%20-%20dusica.uml#_lioUEY_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lnXqLI_9Eeur1a3JGqqQQQ" name="dodajHranu">
+      <modelElement href="projekat%20-%20dusica.uml#_ljB8tI_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_lnXqLY_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lnXqLo_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_lnXqL4_9Eeur1a3JGqqQQQ" name="vCenovnik">
+        <modelElement href="projekat%20-%20dusica.uml#_ljB8tY_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lnXqMI_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lnXqMY_9Eeur1a3JGqqQQQ" name="VBox">
+          <modelElement href="projekat%20-%20dusica.uml#_linF8Y_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lnXqMo_9Eeur1a3JGqqQQQ" name="menadzerProgram">
+        <modelElement href="projekat%20-%20dusica.uml#_ljCjwI_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lnXqM4_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lnXqNI_9Eeur1a3JGqqQQQ" name="Scene">
+          <modelElement href="projekat%20-%20dusica.uml#_lihmYY_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lnXqNY_9Eeur1a3JGqqQQQ" name="stage">
+        <modelElement href="projekat%20-%20dusica.uml#_ljCjwY_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lnXqNo_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lnXqN4_9Eeur1a3JGqqQQQ" name="Stage">
+          <modelElement href="projekat%20-%20dusica.uml#_lioUEY_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_lndJsI_9Eeur1a3JGqqQQQ" name="Sirovina">
+    <modelElement href="projekat%20-%20dusica.uml#_lglFoI_9Eeur1a3JGqqQQQ"/>
+    <visualProperties xmi:id="_lndJsY_9Eeur1a3JGqqQQQ" position="1588.0,988.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_lndJso_9Eeur1a3JGqqQQQ" label="+"/>
+    <attributes xmi:id="_lndJs4_9Eeur1a3JGqqQQQ" name="naziv">
+      <modelElement href="projekat%20-%20dusica.uml#_ljU3oI_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_lndJtI_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lndJtY_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <type xmi:id="_lndJto_9Eeur1a3JGqqQQQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lndJt4_9Eeur1a3JGqqQQQ" name="kolicina">
+      <modelElement href="projekat%20-%20dusica.uml#_ljU3oY_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_lndJuI_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lndJuY_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <type xmi:id="_lndJuo_9Eeur1a3JGqqQQQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_lndJu4_9Eeur1a3JGqqQQQ" name="Sirovina">
+      <modelElement href="projekat%20-%20dusica.uml#_lglssI_9Eeur1a3JGqqQQQ"/>
+      <keywords xmi:id="_lndJvI_9Eeur1a3JGqqQQQ" keyword="create"/>
+      <visibility xmi:id="_lndJvY_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lndJvo_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lndJv4_9Eeur1a3JGqqQQQ">
+        <modelElement href="projekat%20-%20dusica.uml#_lgmTwo_9Eeur1a3JGqqQQQ"/>
+        <type xmi:id="_lndJwI_9Eeur1a3JGqqQQQ" name="Sirovina">
+          <modelElement href="projekat%20-%20dusica.uml#_lglFoI_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lndJwY_9Eeur1a3JGqqQQQ" name="naziv">
+        <modelElement href="projekat%20-%20dusica.uml#_lglssY_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lndJwo_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lndJw4_9Eeur1a3JGqqQQQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lndJxI_9Eeur1a3JGqqQQQ" name="kolicina">
+        <modelElement href="projekat%20-%20dusica.uml#_lglsso_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lndJxY_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lndJxo_9Eeur1a3JGqqQQQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lndJx4_9Eeur1a3JGqqQQQ" name="dodajKolicinu">
+      <modelElement href="projekat%20-%20dusica.uml#_lgmTw4_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_lndJyI_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lndJyY_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_lndJyo_9Eeur1a3JGqqQQQ" name="k">
+        <modelElement href="projekat%20-%20dusica.uml#_lgmTxI_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lndJy4_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lndJzI_9Eeur1a3JGqqQQQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lndJzY_9Eeur1a3JGqqQQQ" name="ispis">
+      <modelElement href="projekat%20-%20dusica.uml#_lgm60I_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_lndJzo_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lndJz4_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_lnhbII_9Eeur1a3JGqqQQQ" name="Konobar" associationsOut="_ln09II_9Eeur1a3JGqqQQQ" generalizations="_lnfl8I_9Eeur1a3JGqqQQQ">
+    <modelElement href="projekat%20-%20dusica.uml#_lgQ8kI_9Eeur1a3JGqqQQQ"/>
+    <visualProperties xmi:id="_lniCMI_9Eeur1a3JGqqQQQ" position="-1033.0,1337.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_lniCMY_9Eeur1a3JGqqQQQ" label="+"/>
+    <attributes xmi:id="_lniCMo_9Eeur1a3JGqqQQQ" name="tip">
+      <modelElement href="projekat%20-%20dusica.uml#_ljQmMI_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_lniCM4_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lniCNI_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <type xmi:id="_lniCNY_9Eeur1a3JGqqQQQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_lniCNo_9Eeur1a3JGqqQQQ" name="Konobar">
+      <modelElement href="projekat%20-%20dusica.uml#_lgQ8kY_9Eeur1a3JGqqQQQ"/>
+      <keywords xmi:id="_lniCN4_9Eeur1a3JGqqQQQ" keyword="create"/>
+      <visibility xmi:id="_lniCOI_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lniCOY_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lniCOo_9Eeur1a3JGqqQQQ">
+        <modelElement href="projekat%20-%20dusica.uml#_lgRjoo_9Eeur1a3JGqqQQQ"/>
+        <type xmi:id="_lniCO4_9Eeur1a3JGqqQQQ" name="Konobar">
+          <modelElement href="projekat%20-%20dusica.uml#_lgQ8kI_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_lniCPI_9Eeur1a3JGqqQQQ" name="Konobar">
+      <modelElement href="projekat%20-%20dusica.uml#_lgRjo4_9Eeur1a3JGqqQQQ"/>
+      <keywords xmi:id="_lniCPY_9Eeur1a3JGqqQQQ" keyword="create"/>
+      <visibility xmi:id="_lniCPo_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lniCP4_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lniCQI_9Eeur1a3JGqqQQQ">
+        <modelElement href="projekat%20-%20dusica.uml#_lgSKsY_9Eeur1a3JGqqQQQ"/>
+        <type xmi:id="_lniCQY_9Eeur1a3JGqqQQQ" name="Konobar">
+          <modelElement href="projekat%20-%20dusica.uml#_lgQ8kI_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lniCQo_9Eeur1a3JGqqQQQ" name="ime">
+        <modelElement href="projekat%20-%20dusica.uml#_lgRjpI_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lniCQ4_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lniCRI_9Eeur1a3JGqqQQQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lniCRY_9Eeur1a3JGqqQQQ" name="prezime">
+        <modelElement href="projekat%20-%20dusica.uml#_lgRjpY_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lniCRo_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lniCR4_9Eeur1a3JGqqQQQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lniCSI_9Eeur1a3JGqqQQQ" name="otvoriRestoran">
+      <modelElement href="projekat%20-%20dusica.uml#_lgSKso_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_lniCSY_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lniCSo_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lniCS4_9Eeur1a3JGqqQQQ">
+        <modelElement href="projekat%20-%20dusica.uml#_lgSKs4_9Eeur1a3JGqqQQQ"/>
+        <type xmi:id="_lniCTI_9Eeur1a3JGqqQQQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_lniCTY_9Eeur1a3JGqqQQQ" name="toSting">
+      <modelElement href="projekat%20-%20dusica.uml#_lgSKtI_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_lniCTo_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lniCT4_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lniCUI_9Eeur1a3JGqqQQQ">
+        <modelElement href="projekat%20-%20dusica.uml#_lgSKtY_9Eeur1a3JGqqQQQ"/>
+        <type xmi:id="_lniCUY_9Eeur1a3JGqqQQQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_lniCUo_9Eeur1a3JGqqQQQ" name="dodajUFajl">
+      <modelElement href="projekat%20-%20dusica.uml#_lgSxwI_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_lniCU4_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lniCVI_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_lniCVY_9Eeur1a3JGqqQQQ" name="izdavanjeRacuna">
+      <modelElement href="projekat%20-%20dusica.uml#_livo0I_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_lniCVo_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lniCV4_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_lniCWI_9Eeur1a3JGqqQQQ" name="s">
+        <modelElement href="projekat%20-%20dusica.uml#_livo0Y_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lniCWY_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lniCWo_9Eeur1a3JGqqQQQ" name="Sto">
+          <modelElement href="projekat%20-%20dusica.uml#_lgnh4I_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lniCW4_9Eeur1a3JGqqQQQ" name="prozor">
+      <modelElement href="projekat%20-%20dusica.uml#_ljDx4I_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_lniCXI_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lniCXY_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_lniCXo_9Eeur1a3JGqqQQQ" name="stage">
+        <modelElement href="projekat%20-%20dusica.uml#_ljDx4Y_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lniCX4_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lniCYI_9Eeur1a3JGqqQQQ" name="Stage">
+          <modelElement href="projekat%20-%20dusica.uml#_lioUEY_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lniCYY_9Eeur1a3JGqqQQQ" name="hBox">
+        <modelElement href="projekat%20-%20dusica.uml#_ljEY8I_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lniCYo_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lniCY4_9Eeur1a3JGqqQQQ" name="HBox">
+          <modelElement href="projekat%20-%20dusica.uml#_lime4o_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lniCZI_9Eeur1a3JGqqQQQ" name="vBox">
+        <modelElement href="projekat%20-%20dusica.uml#_ljEY8Y_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lniCZY_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lniCZo_9Eeur1a3JGqqQQQ" name="VBox">
+          <modelElement href="projekat%20-%20dusica.uml#_linF8Y_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lniCZ4_9Eeur1a3JGqqQQQ" name="glavnaStrana">
+        <modelElement href="projekat%20-%20dusica.uml#_ljEY8o_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lniCaI_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lniCaY_9Eeur1a3JGqqQQQ" name="Scene">
+          <modelElement href="projekat%20-%20dusica.uml#_lihmYY_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lniCao_9Eeur1a3JGqqQQQ" name="prozorZaPrikazKonobara">
+      <modelElement href="projekat%20-%20dusica.uml#_ljEY84_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_lniCa4_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lniCbI_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_lniCbY_9Eeur1a3JGqqQQQ" name="vKonobari">
+        <modelElement href="projekat%20-%20dusica.uml#_ljEY9I_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lniCbo_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lniCb4_9Eeur1a3JGqqQQQ" name="VBox">
+          <modelElement href="projekat%20-%20dusica.uml#_linF8Y_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lniCcI_9Eeur1a3JGqqQQQ" name="menadzerProgram">
+        <modelElement href="projekat%20-%20dusica.uml#_ljFAAI_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lniCcY_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lniCco_9Eeur1a3JGqqQQQ" name="Scene">
+          <modelElement href="projekat%20-%20dusica.uml#_lihmYY_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lniCc4_9Eeur1a3JGqqQQQ" name="stage">
+        <modelElement href="projekat%20-%20dusica.uml#_ljFAAY_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lniCdI_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lniCdY_9Eeur1a3JGqqQQQ" name="Stage">
+          <modelElement href="projekat%20-%20dusica.uml#_lioUEY_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lniCdo_9Eeur1a3JGqqQQQ" name="dodajKonobara">
+      <modelElement href="projekat%20-%20dusica.uml#_ljFAAo_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_lniCd4_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lniCeI_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_lniCeY_9Eeur1a3JGqqQQQ" name="vbox">
+        <modelElement href="projekat%20-%20dusica.uml#_ljFAA4_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lniCeo_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lniCe4_9Eeur1a3JGqqQQQ" name="VBox">
+          <modelElement href="projekat%20-%20dusica.uml#_linF8Y_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lniCfI_9Eeur1a3JGqqQQQ" name="menadzerProgram">
+        <modelElement href="projekat%20-%20dusica.uml#_ljFABI_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lniCfY_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lniCfo_9Eeur1a3JGqqQQQ" name="Scene">
+          <modelElement href="projekat%20-%20dusica.uml#_lihmYY_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lniCf4_9Eeur1a3JGqqQQQ" name="stage">
+        <modelElement href="projekat%20-%20dusica.uml#_ljFnEI_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lniCgI_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lniCgY_9Eeur1a3JGqqQQQ" name="Stage">
+          <modelElement href="projekat%20-%20dusica.uml#_lioUEY_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lniCgo_9Eeur1a3JGqqQQQ" name="obrisiKonobara">
+      <modelElement href="projekat%20-%20dusica.uml#_ljFnEY_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_lniCg4_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lniChI_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_lniChY_9Eeur1a3JGqqQQQ" name="vKonobari">
+        <modelElement href="projekat%20-%20dusica.uml#_ljFnEo_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lniCho_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lniCh4_9Eeur1a3JGqqQQQ" name="VBox">
+          <modelElement href="projekat%20-%20dusica.uml#_linF8Y_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lniCiI_9Eeur1a3JGqqQQQ" name="menadzerProgram">
+        <modelElement href="projekat%20-%20dusica.uml#_ljGOII_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lniCiY_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lniCio_9Eeur1a3JGqqQQQ" name="Scene">
+          <modelElement href="projekat%20-%20dusica.uml#_lihmYY_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lniCi4_9Eeur1a3JGqqQQQ" name="stage">
+        <modelElement href="projekat%20-%20dusica.uml#_ljGOIY_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lniCjI_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lniCjY_9Eeur1a3JGqqQQQ" name="Stage">
+          <modelElement href="projekat%20-%20dusica.uml#_lioUEY_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lniCjo_9Eeur1a3JGqqQQQ" name="prozorZaPrikazStolova">
+      <modelElement href="projekat%20-%20dusica.uml#_ljGOIo_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_lniCj4_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lniCkI_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_lniCkY_9Eeur1a3JGqqQQQ" name="vBoxK">
+        <modelElement href="projekat%20-%20dusica.uml#_ljGOI4_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lniCko_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lniCk4_9Eeur1a3JGqqQQQ" name="VBox">
+          <modelElement href="projekat%20-%20dusica.uml#_linF8Y_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lniClI_9Eeur1a3JGqqQQQ" name="stage">
+        <modelElement href="projekat%20-%20dusica.uml#_ljGOJI_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lniClY_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lniClo_9Eeur1a3JGqqQQQ" name="Stage">
+          <modelElement href="projekat%20-%20dusica.uml#_lioUEY_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lniCl4_9Eeur1a3JGqqQQQ" name="konobarScene">
+        <modelElement href="projekat%20-%20dusica.uml#_ljGOJY_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lniCmI_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lniCmY_9Eeur1a3JGqqQQQ" name="Scene">
+          <modelElement href="projekat%20-%20dusica.uml#_lihmYY_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lniCmo_9Eeur1a3JGqqQQQ" name="prozorZaKucanjeRacuna">
+      <modelElement href="projekat%20-%20dusica.uml#_ljG1MI_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_lniCm4_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lniCnI_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_lniCnY_9Eeur1a3JGqqQQQ" name="scene">
+        <modelElement href="projekat%20-%20dusica.uml#_ljG1MY_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lniCno_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lniCn4_9Eeur1a3JGqqQQQ" name="Scene">
+          <modelElement href="projekat%20-%20dusica.uml#_lihmYY_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lniCoI_9Eeur1a3JGqqQQQ" name="vbox">
+        <modelElement href="projekat%20-%20dusica.uml#_ljG1Mo_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lniCoY_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lniCoo_9Eeur1a3JGqqQQQ" name="VBox">
+          <modelElement href="projekat%20-%20dusica.uml#_linF8Y_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lniCo4_9Eeur1a3JGqqQQQ" name="stage">
+        <modelElement href="projekat%20-%20dusica.uml#_ljG1M4_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lniCpI_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lniCpY_9Eeur1a3JGqqQQQ" name="Stage">
+          <modelElement href="projekat%20-%20dusica.uml#_lioUEY_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lniCpo_9Eeur1a3JGqqQQQ" name="s">
+        <modelElement href="projekat%20-%20dusica.uml#_ljHcQI_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lniCp4_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lniCqI_9Eeur1a3JGqqQQQ" name="Sto">
+          <modelElement href="projekat%20-%20dusica.uml#_lgnh4I_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lniCqY_9Eeur1a3JGqqQQQ" name="konobarScene">
+        <modelElement href="projekat%20-%20dusica.uml#_ljHcQY_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lniCqo_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lniCq4_9Eeur1a3JGqqQQQ" name="Scene">
+          <modelElement href="projekat%20-%20dusica.uml#_lihmYY_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_lnrMKI_9Eeur1a3JGqqQQQ" name="Restoran" associationsIn="_lnrMII_9Eeur1a3JGqqQQQ" associationsOut="_lnoI0I_9Eeur1a3JGqqQQQ">
+    <modelElement href="projekat%20-%20dusica.uml#_lgipYI_9Eeur1a3JGqqQQQ"/>
+    <visualProperties xmi:id="_lnrMKY_9Eeur1a3JGqqQQQ" position="-81.0,456.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_lnrMKo_9Eeur1a3JGqqQQQ" label="+"/>
+    <attributes xmi:id="_lnrMK4_9Eeur1a3JGqqQQQ" name="naziv">
+      <modelElement href="projekat%20-%20dusica.uml#_ljTpgI_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_lnrMLI_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lnrMLY_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <type xmi:id="_lnrMLo_9Eeur1a3JGqqQQQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lnrML4_9Eeur1a3JGqqQQQ" name="stolovi">
+      <modelElement href="projekat%20-%20dusica.uml#_ljTpgY_9Eeur1a3JGqqQQQ"/>
+      <stereotypes xmi:id="_lnrMMI_9Eeur1a3JGqqQQQ" name="Generics">
+        <modelElement href="projekat%20-%20dusica.uml#_ljUQkI_9Eeur1a3JGqqQQQ"/>
+      </stereotypes>
+      <visibility xmi:id="_lnrMMY_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lnrMMo_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <type xmi:id="_lnrMM4_9Eeur1a3JGqqQQQ" name="ArrayList">
+        <modelElement href="projekat%20-%20dusica.uml#_lifKI4_9Eeur1a3JGqqQQQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lnrMNI_9Eeur1a3JGqqQQQ" name="menadzer">
+      <modelElement href="projekat%20-%20dusica.uml#_ljUQkY_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_lnrMNY_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lnrMNo_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <type xmi:id="_lnrMN4_9Eeur1a3JGqqQQQ" name="Menadzer">
+        <modelElement href="projekat%20-%20dusica.uml#_lgYRUI_9Eeur1a3JGqqQQQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_lnrMOI_9Eeur1a3JGqqQQQ" name="ispis">
+      <modelElement href="projekat%20-%20dusica.uml#_lgj3gI_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_lnrMOY_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lnrMOo_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_lnrMO4_9Eeur1a3JGqqQQQ" name="Restoran">
+      <modelElement href="projekat%20-%20dusica.uml#_li5Z0I_9Eeur1a3JGqqQQQ"/>
+      <keywords xmi:id="_lnrMPI_9Eeur1a3JGqqQQQ" keyword="create"/>
+      <visibility xmi:id="_lnrMPY_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lnrMPo_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lnrMP4_9Eeur1a3JGqqQQQ">
+        <modelElement href="projekat%20-%20dusica.uml#_li5Z1Y_9Eeur1a3JGqqQQQ"/>
+        <type xmi:id="_lnrMQI_9Eeur1a3JGqqQQQ" name="Restoran">
+          <modelElement href="projekat%20-%20dusica.uml#_lgipYI_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lnrMQY_9Eeur1a3JGqqQQQ" name="naziv">
+        <modelElement href="projekat%20-%20dusica.uml#_li5Z0Y_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lnrMQo_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lnrMQ4_9Eeur1a3JGqqQQQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lnrMRI_9Eeur1a3JGqqQQQ" name="menadzer">
+        <modelElement href="projekat%20-%20dusica.uml#_li5Z0o_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lnrMRY_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lnrMRo_9Eeur1a3JGqqQQQ" name="Menadzer">
+          <modelElement href="projekat%20-%20dusica.uml#_lgYRUI_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lnrMR4_9Eeur1a3JGqqQQQ" name="dodajSto">
+      <modelElement href="projekat%20-%20dusica.uml#_li6A4I_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_lnrMSI_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lnrMSY_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_lnrMSo_9Eeur1a3JGqqQQQ" name="s">
+        <modelElement href="projekat%20-%20dusica.uml#_li6A4Y_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lnrMS4_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lnrMTI_9Eeur1a3JGqqQQQ" name="Sto">
+          <modelElement href="projekat%20-%20dusica.uml#_lgnh4I_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_lnwruI_9Eeur1a3JGqqQQQ" name="Sto" associationsIn="_lnwrsI_9Eeur1a3JGqqQQQ">
+    <modelElement href="projekat%20-%20dusica.uml#_lgnh4I_9Eeur1a3JGqqQQQ"/>
+    <visualProperties xmi:id="_lnwruY_9Eeur1a3JGqqQQQ" position="-401.0,647.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_lnwruo_9Eeur1a3JGqqQQQ" label="+"/>
+    <attributes xmi:id="_lnwru4_9Eeur1a3JGqqQQQ" name="id">
+      <modelElement href="projekat%20-%20dusica.uml#_ljVesI_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_lnwrvI_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lnwrvY_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <type xmi:id="_lnwrvo_9Eeur1a3JGqqQQQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lnwrv4_9Eeur1a3JGqqQQQ" name="racun">
+      <modelElement href="projekat%20-%20dusica.uml#_ljVesY_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_lnwrwI_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lnwrwY_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <type xmi:id="_lnwrwo_9Eeur1a3JGqqQQQ" name="Racun">
+        <modelElement href="projekat%20-%20dusica.uml#_lgeX8I_9Eeur1a3JGqqQQQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_lnwrw4_9Eeur1a3JGqqQQQ" name="Sto">
+      <modelElement href="projekat%20-%20dusica.uml#_lgnh4Y_9Eeur1a3JGqqQQQ"/>
+      <keywords xmi:id="_lnwrxI_9Eeur1a3JGqqQQQ" keyword="create"/>
+      <stereotypes xmi:id="_lnwrxY_9Eeur1a3JGqqQQQ" name="LegacyStyledElement">
+        <modelElement href="projekat%20-%20dusica.uml#_lgoI8o_9Eeur1a3JGqqQQQ"/>
+      </stereotypes>
+      <visibility xmi:id="_lnwrxo_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lnwrx4_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lnwryI_9Eeur1a3JGqqQQQ">
+        <modelElement href="projekat%20-%20dusica.uml#_lgoI84_9Eeur1a3JGqqQQQ"/>
+        <type xmi:id="_lnwryY_9Eeur1a3JGqqQQQ" name="Sto">
+          <modelElement href="projekat%20-%20dusica.uml#_lgnh4I_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_lnwryo_9Eeur1a3JGqqQQQ" name="Sto">
+      <modelElement href="projekat%20-%20dusica.uml#_lgoI9I_9Eeur1a3JGqqQQQ"/>
+      <keywords xmi:id="_lnwry4_9Eeur1a3JGqqQQQ" keyword="create"/>
+      <visibility xmi:id="_lnwrzI_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lnwrzY_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lnwrzo_9Eeur1a3JGqqQQQ">
+        <modelElement href="projekat%20-%20dusica.uml#_lgowAo_9Eeur1a3JGqqQQQ"/>
+        <type xmi:id="_lnwrz4_9Eeur1a3JGqqQQQ" name="Sto">
+          <modelElement href="projekat%20-%20dusica.uml#_lgnh4I_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lnwr0I_9Eeur1a3JGqqQQQ" name="id">
+        <modelElement href="projekat%20-%20dusica.uml#_lgoI9Y_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lnwr0Y_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lnwr0o_9Eeur1a3JGqqQQQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lnwr04_9Eeur1a3JGqqQQQ" name="stanje">
+      <modelElement href="projekat%20-%20dusica.uml#_lgowA4_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_lnwr1I_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lnwr1Y_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_lnwr1o_9Eeur1a3JGqqQQQ">
+        <modelElement href="projekat%20-%20dusica.uml#_lgowBI_9Eeur1a3JGqqQQQ"/>
+        <type xmi:id="_lnwr14_9Eeur1a3JGqqQQQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_lnwr2I_9Eeur1a3JGqqQQQ" name="isprazniSto">
+      <modelElement href="projekat%20-%20dusica.uml#_lgpXEI_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_lnwr2Y_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lnwr2o_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_lnwr24_9Eeur1a3JGqqQQQ" name="ispis">
+      <modelElement href="projekat%20-%20dusica.uml#_lgpXEY_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_lnwr3I_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lnwr3Y_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_lnwr3o_9Eeur1a3JGqqQQQ" name="dodajRacun">
+      <modelElement href="projekat%20-%20dusica.uml#_li7PAI_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_lnwr34_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lnwr4I_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_lnwr4Y_9Eeur1a3JGqqQQQ" name="r">
+        <modelElement href="projekat%20-%20dusica.uml#_li7PAY_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lnwr4o_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lnwr44_9Eeur1a3JGqqQQQ" name="Racun">
+          <modelElement href="projekat%20-%20dusica.uml#_lgeX8I_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ln_VMI_9Eeur1a3JGqqQQQ" name="Menadzer" associationsOut="_lnrMII_9Eeur1a3JGqqQQQ" generalizations="_ln9gAI_9Eeur1a3JGqqQQQ">
+    <modelElement href="projekat%20-%20dusica.uml#_lgYRUI_9Eeur1a3JGqqQQQ"/>
+    <visualProperties xmi:id="_ln_VMY_9Eeur1a3JGqqQQQ" position="641.0,703.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ln_VMo_9Eeur1a3JGqqQQQ" label="+"/>
+    <attributes xmi:id="_ln_VM4_9Eeur1a3JGqqQQQ" name="tip">
+      <modelElement href="projekat%20-%20dusica.uml#_ljRNQI_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_ln_VNI_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_ln_VNY_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <type xmi:id="_ln_VNo_9Eeur1a3JGqqQQQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ln_VN4_9Eeur1a3JGqqQQQ" name="Menadzer">
+      <modelElement href="projekat%20-%20dusica.uml#_lgY4YI_9Eeur1a3JGqqQQQ"/>
+      <keywords xmi:id="_ln_VOI_9Eeur1a3JGqqQQQ" keyword="create"/>
+      <stereotypes xmi:id="_ln_VOY_9Eeur1a3JGqqQQQ" name="LegacyStyledElement">
+        <modelElement href="projekat%20-%20dusica.uml#_lgY4Y4_9Eeur1a3JGqqQQQ"/>
+      </stereotypes>
+      <visibility xmi:id="_ln_VOo_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_ln_VO4_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ln_VPI_9Eeur1a3JGqqQQQ">
+        <modelElement href="projekat%20-%20dusica.uml#_lgZfcI_9Eeur1a3JGqqQQQ"/>
+        <type xmi:id="_ln_VPY_9Eeur1a3JGqqQQQ" name="Menadzer">
+          <modelElement href="projekat%20-%20dusica.uml#_lgYRUI_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ln_VPo_9Eeur1a3JGqqQQQ" name="Menadzer">
+      <modelElement href="projekat%20-%20dusica.uml#_lgZfcY_9Eeur1a3JGqqQQQ"/>
+      <keywords xmi:id="_ln_VP4_9Eeur1a3JGqqQQQ" keyword="create"/>
+      <visibility xmi:id="_ln_VQI_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_ln_VQY_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ln_VQo_9Eeur1a3JGqqQQQ">
+        <modelElement href="projekat%20-%20dusica.uml#_lgZfdo_9Eeur1a3JGqqQQQ"/>
+        <type xmi:id="_ln_VQ4_9Eeur1a3JGqqQQQ" name="Menadzer">
+          <modelElement href="projekat%20-%20dusica.uml#_lgYRUI_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ln_VRI_9Eeur1a3JGqqQQQ" name="ime">
+        <modelElement href="projekat%20-%20dusica.uml#_lgZfco_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_ln_VRY_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_ln_VRo_9Eeur1a3JGqqQQQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ln_VR4_9Eeur1a3JGqqQQQ" name="prezime">
+        <modelElement href="projekat%20-%20dusica.uml#_lgZfc4_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_ln_VSI_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_ln_VSY_9Eeur1a3JGqqQQQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ln_VSo_9Eeur1a3JGqqQQQ" name="istorijaRacuna">
+      <modelElement href="projekat%20-%20dusica.uml#_lgaGgI_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_ln_VS4_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_ln_VTI_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_ln_VTY_9Eeur1a3JGqqQQQ" name="dodajKonobara">
+      <modelElement href="projekat%20-%20dusica.uml#_lizTMI_9Eeur1a3JGqqQQQ"/>
+      <stereotypes xmi:id="_ln_VTo_9Eeur1a3JGqqQQQ" name="LegacyStyledElement">
+        <modelElement href="projekat%20-%20dusica.uml#_lizTMo_9Eeur1a3JGqqQQQ"/>
+      </stereotypes>
+      <visibility xmi:id="_ln_VT4_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_ln_VUI_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ln_VUY_9Eeur1a3JGqqQQQ" name="k">
+        <modelElement href="projekat%20-%20dusica.uml#_lizTMY_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_ln_VUo_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_ln_VU4_9Eeur1a3JGqqQQQ" name="Konobar">
+          <modelElement href="projekat%20-%20dusica.uml#_lgQ8kI_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ln_VVI_9Eeur1a3JGqqQQQ" name="prozor">
+      <modelElement href="projekat%20-%20dusica.uml#_ljIDUI_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_ln_VVY_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_ln_VVo_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ln_VV4_9Eeur1a3JGqqQQQ" name="stage">
+        <modelElement href="projekat%20-%20dusica.uml#_ljIDUY_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_ln_VWI_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_ln_VWY_9Eeur1a3JGqqQQQ" name="Stage">
+          <modelElement href="projekat%20-%20dusica.uml#_lioUEY_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ln_VWo_9Eeur1a3JGqqQQQ" name="hBox">
+        <modelElement href="projekat%20-%20dusica.uml#_ljIqYI_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_ln_VW4_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_ln_VXI_9Eeur1a3JGqqQQQ" name="HBox">
+          <modelElement href="projekat%20-%20dusica.uml#_lime4o_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ln_VXY_9Eeur1a3JGqqQQQ" name="vBox">
+        <modelElement href="projekat%20-%20dusica.uml#_ljIqYY_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_ln_VXo_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_ln_VX4_9Eeur1a3JGqqQQQ" name="VBox">
+          <modelElement href="projekat%20-%20dusica.uml#_linF8Y_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ln_VYI_9Eeur1a3JGqqQQQ" name="glavnaStrana">
+        <modelElement href="projekat%20-%20dusica.uml#_ljIqYo_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_ln_VYY_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_ln_VYo_9Eeur1a3JGqqQQQ" name="Scene">
+          <modelElement href="projekat%20-%20dusica.uml#_lihmYY_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_loE0wI_9Eeur1a3JGqqQQQ" name="GotoviProizvodi" associationsOut="_loCYgI_9Eeur1a3JGqqQQQ">
+    <modelElement href="projekat%20-%20dusica.uml#_lgMrII_9Eeur1a3JGqqQQQ"/>
+    <visualProperties xmi:id="_loE0wY_9Eeur1a3JGqqQQQ" position="636.0,1058.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_loE0wo_9Eeur1a3JGqqQQQ" label="+"/>
+    <attributes xmi:id="_loE0w4_9Eeur1a3JGqqQQQ" name="naziv">
+      <modelElement href="projekat%20-%20dusica.uml#_ljOxAI_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_loE0xI_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_loE0xY_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <type xmi:id="_loE0xo_9Eeur1a3JGqqQQQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_loE0x4_9Eeur1a3JGqqQQQ" name="cena">
+      <modelElement href="projekat%20-%20dusica.uml#_ljOxAY_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_loE0yI_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_loE0yY_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <type xmi:id="_loE0yo_9Eeur1a3JGqqQQQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_loE0y4_9Eeur1a3JGqqQQQ" name="tip">
+      <modelElement href="projekat%20-%20dusica.uml#_ljPYEI_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_loE0zI_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_loE0zY_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <type xmi:id="_loE0zo_9Eeur1a3JGqqQQQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_loE0z4_9Eeur1a3JGqqQQQ" defaultValue="new ArrayList&lt;Sirovina>()" name="namirnice">
+      <modelElement href="projekat%20-%20dusica.uml#_ljPYEY_9Eeur1a3JGqqQQQ"/>
+      <stereotypes xmi:id="_loE00I_9Eeur1a3JGqqQQQ" name="Generics">
+        <modelElement href="projekat%20-%20dusica.uml#_ljP_II_9Eeur1a3JGqqQQQ"/>
+      </stereotypes>
+      <visibility xmi:id="_loE00Y_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_loE00o_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <type xmi:id="_loE004_9Eeur1a3JGqqQQQ" name="ArrayList">
+        <modelElement href="projekat%20-%20dusica.uml#_lifKI4_9Eeur1a3JGqqQQQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_loE01I_9Eeur1a3JGqqQQQ" name="GotoviProizvodi">
+      <modelElement href="projekat%20-%20dusica.uml#_lgNSMI_9Eeur1a3JGqqQQQ"/>
+      <keywords xmi:id="_loE01Y_9Eeur1a3JGqqQQQ" keyword="create"/>
+      <stereotypes xmi:id="_loE01o_9Eeur1a3JGqqQQQ" name="LegacyStyledElement">
+        <modelElement href="projekat%20-%20dusica.uml#_lgN5Qo_9Eeur1a3JGqqQQQ"/>
+      </stereotypes>
+      <visibility xmi:id="_loE014_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_loE02I_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_loE02Y_9Eeur1a3JGqqQQQ">
+        <modelElement href="projekat%20-%20dusica.uml#_lgN5Q4_9Eeur1a3JGqqQQQ"/>
+        <type xmi:id="_loE02o_9Eeur1a3JGqqQQQ" name="GotoviProizvodi">
+          <modelElement href="projekat%20-%20dusica.uml#_lgMrII_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_loE024_9Eeur1a3JGqqQQQ" name="GotoviProizvodi">
+      <modelElement href="projekat%20-%20dusica.uml#_lgOgUI_9Eeur1a3JGqqQQQ"/>
+      <keywords xmi:id="_loE03I_9Eeur1a3JGqqQQQ" keyword="create"/>
+      <visibility xmi:id="_loE03Y_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_loE03o_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_loE034_9Eeur1a3JGqqQQQ">
+        <modelElement href="projekat%20-%20dusica.uml#_lgOgVY_9Eeur1a3JGqqQQQ"/>
+        <type xmi:id="_loE04I_9Eeur1a3JGqqQQQ" name="GotoviProizvodi">
+          <modelElement href="projekat%20-%20dusica.uml#_lgMrII_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_loE04Y_9Eeur1a3JGqqQQQ" name="naziv">
+        <modelElement href="projekat%20-%20dusica.uml#_lgOgUY_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_loE04o_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_loE044_9Eeur1a3JGqqQQQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_loE05I_9Eeur1a3JGqqQQQ" name="cena">
+        <modelElement href="projekat%20-%20dusica.uml#_lgOgUo_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_loE05Y_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_loE05o_9Eeur1a3JGqqQQQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_loE054_9Eeur1a3JGqqQQQ" name="GotoviProizvodi">
+      <modelElement href="projekat%20-%20dusica.uml#_lgPHYI_9Eeur1a3JGqqQQQ"/>
+      <keywords xmi:id="_loE06I_9Eeur1a3JGqqQQQ" keyword="create"/>
+      <visibility xmi:id="_loE06Y_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_loE06o_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_loE064_9Eeur1a3JGqqQQQ">
+        <modelElement href="projekat%20-%20dusica.uml#_lgPHZo_9Eeur1a3JGqqQQQ"/>
+        <type xmi:id="_loE07I_9Eeur1a3JGqqQQQ" name="GotoviProizvodi">
+          <modelElement href="projekat%20-%20dusica.uml#_lgMrII_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_loE07Y_9Eeur1a3JGqqQQQ" name="naziv">
+        <modelElement href="projekat%20-%20dusica.uml#_lgPHYY_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_loE07o_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_loE074_9Eeur1a3JGqqQQQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_loE08I_9Eeur1a3JGqqQQQ" name="cena">
+        <modelElement href="projekat%20-%20dusica.uml#_lgPHYo_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_loE08Y_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_loE08o_9Eeur1a3JGqqQQQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_loE084_9Eeur1a3JGqqQQQ" name="tip">
+        <modelElement href="projekat%20-%20dusica.uml#_lgPHY4_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_loE09I_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_loE09Y_9Eeur1a3JGqqQQQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_loE09o_9Eeur1a3JGqqQQQ" name="ispis">
+      <modelElement href="projekat%20-%20dusica.uml#_lgPucI_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_loE094_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_loE0-I_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_loE0-Y_9Eeur1a3JGqqQQQ" name="toSting">
+      <modelElement href="projekat%20-%20dusica.uml#_lgPucY_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_loE0-o_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_loE0-4_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_loE0_I_9Eeur1a3JGqqQQQ">
+        <modelElement href="projekat%20-%20dusica.uml#_lgPuco_9Eeur1a3JGqqQQQ"/>
+        <type xmi:id="_loE0_Y_9Eeur1a3JGqqQQQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_loE0_o_9Eeur1a3JGqqQQQ" name="dodajUFajl">
+      <modelElement href="projekat%20-%20dusica.uml#_lgPuc4_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_loE0_4_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_loE1AI_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_loE1AY_9Eeur1a3JGqqQQQ" name="dodajSirovinuURecept">
+      <modelElement href="projekat%20-%20dusica.uml#_litzoY_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_loE1Ao_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_loE1A4_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_loE1BI_9Eeur1a3JGqqQQQ" name="s">
+        <modelElement href="projekat%20-%20dusica.uml#_litzoo_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_loE1BY_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_loE1Bo_9Eeur1a3JGqqQQQ" name="Sirovina">
+          <modelElement href="projekat%20-%20dusica.uml#_lglFoI_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_qfDx0I_9Eeur1a3JGqqQQQ" name="Application" subclassedBy="_qfDKwI_9Eeur1a3JGqqQQQ">
+    <modelElement href="projekat%20-%20dusica.uml#_lifxMY_9Eeur1a3JGqqQQQ"/>
+    <visualProperties xmi:id="_qfDx0Y_9Eeur1a3JGqqQQQ" position="1795.0,92.0"/>
+    <stereotypes xmi:id="_qfDx0o_9Eeur1a3JGqqQQQ" name="Reference">
+      <modelElement href="projekat%20-%20dusica.uml#_ligYQI_9Eeur1a3JGqqQQQ"/>
+    </stereotypes>
+    <visibility xmi:id="_qfDx04_9Eeur1a3JGqqQQQ" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_lnQ8cI_9Eeur1a3JGqqQQQ" name="App" generalizations="_qfDKwI_9Eeur1a3JGqqQQQ">
+    <modelElement href="projekat%20-%20dusica.uml#_lgC6II_9Eeur1a3JGqqQQQ"/>
+    <visualProperties xmi:id="_lnQ8cY_9Eeur1a3JGqqQQQ" position="1674.0,42.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_lnQ8co_9Eeur1a3JGqqQQQ" label="+"/>
+    <operations xmi:id="_lnQ8c4_9Eeur1a3JGqqQQQ" name="main" staticOperation="true">
+      <modelElement href="projekat%20-%20dusica.uml#_lgEIQI_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_lnQ8dI_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lnQ8dY_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_lnQ8do_9Eeur1a3JGqqQQQ" name="args">
+        <modelElement href="projekat%20-%20dusica.uml#_lgEIQY_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lnQ8d4_9Eeur1a3JGqqQQQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_lnQ8eI_9Eeur1a3JGqqQQQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lnQ8eY_9Eeur1a3JGqqQQQ" name="start">
+      <modelElement href="projekat%20-%20dusica.uml#_li_gcI_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_lnQ8eo_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_lnQ8e4_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_lnQ8fI_9Eeur1a3JGqqQQQ" name="stage">
+        <modelElement href="projekat%20-%20dusica.uml#_li_gcY_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_lnQ8fY_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_lnQ8fo_9Eeur1a3JGqqQQQ" name="Stage">
+          <modelElement href="projekat%20-%20dusica.uml#_lioUEY_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ln4AcI_9Eeur1a3JGqqQQQ" name="Racun" associationsIn="_ln09II_9Eeur1a3JGqqQQQ" associationsOut="_lnwrsI_9Eeur1a3JGqqQQQ _ln1kM4_9Eeur1a3JGqqQQQ">
+    <modelElement href="projekat%20-%20dusica.uml#_lgeX8I_9Eeur1a3JGqqQQQ"/>
+    <visualProperties xmi:id="_ln4AcY_9Eeur1a3JGqqQQQ" position="-123.0,950.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ln4Aco_9Eeur1a3JGqqQQQ" label="+"/>
+    <attributes xmi:id="_ln4Ac4_9Eeur1a3JGqqQQQ" name="ukupnaCena">
+      <modelElement href="projekat%20-%20dusica.uml#_ljR0UY_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_ln4AdI_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_ln4AdY_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <type xmi:id="_ln4Ado_9Eeur1a3JGqqQQQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ln4Ad4_9Eeur1a3JGqqQQQ" name="datum">
+      <modelElement href="projekat%20-%20dusica.uml#_ljR0Uo_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_ln4AeI_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_ln4AeY_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <type xmi:id="_ln4Aeo_9Eeur1a3JGqqQQQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ln4Ae4_9Eeur1a3JGqqQQQ" name="konobar">
+      <modelElement href="projekat%20-%20dusica.uml#_ljR0U4_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_ln4AfI_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_ln4AfY_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <type xmi:id="_ln4Afo_9Eeur1a3JGqqQQQ" name="Konobar">
+        <modelElement href="projekat%20-%20dusica.uml#_lgQ8kI_9Eeur1a3JGqqQQQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ln4Af4_9Eeur1a3JGqqQQQ" name="proizvodi">
+      <modelElement href="projekat%20-%20dusica.uml#_ljSbYI_9Eeur1a3JGqqQQQ"/>
+      <stereotypes xmi:id="_ln4AgI_9Eeur1a3JGqqQQQ" name="Generics">
+        <modelElement href="projekat%20-%20dusica.uml#_ljSbYY_9Eeur1a3JGqqQQQ"/>
+      </stereotypes>
+      <visibility xmi:id="_ln4AgY_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_ln4Ago_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <type xmi:id="_ln4Ag4_9Eeur1a3JGqqQQQ" name="ArrayList">
+        <modelElement href="projekat%20-%20dusica.uml#_lifKI4_9Eeur1a3JGqqQQQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ln4AhI_9Eeur1a3JGqqQQQ" name="Racun">
+      <modelElement href="projekat%20-%20dusica.uml#_lge_AI_9Eeur1a3JGqqQQQ"/>
+      <keywords xmi:id="_ln4AhY_9Eeur1a3JGqqQQQ" keyword="create"/>
+      <stereotypes xmi:id="_ln4Aho_9Eeur1a3JGqqQQQ" name="LegacyStyledElement">
+        <modelElement href="projekat%20-%20dusica.uml#_lgfmEI_9Eeur1a3JGqqQQQ"/>
+      </stereotypes>
+      <visibility xmi:id="_ln4Ah4_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_ln4AiI_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ln4AiY_9Eeur1a3JGqqQQQ">
+        <modelElement href="projekat%20-%20dusica.uml#_lgfmEY_9Eeur1a3JGqqQQQ"/>
+        <type xmi:id="_ln4Aio_9Eeur1a3JGqqQQQ" name="Racun">
+          <modelElement href="projekat%20-%20dusica.uml#_lgeX8I_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ln4Ai4_9Eeur1a3JGqqQQQ" name="ispis">
+      <modelElement href="projekat%20-%20dusica.uml#_lgfmEo_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_ln4AjI_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_ln4AjY_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_ln4Ajo_9Eeur1a3JGqqQQQ" name="toSting">
+      <modelElement href="projekat%20-%20dusica.uml#_lggNII_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_ln4Aj4_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_ln4AkI_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ln4AkY_9Eeur1a3JGqqQQQ">
+        <modelElement href="projekat%20-%20dusica.uml#_lggNIY_9Eeur1a3JGqqQQQ"/>
+        <type xmi:id="_ln4Ako_9Eeur1a3JGqqQQQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ln4Ak4_9Eeur1a3JGqqQQQ" name="Racun">
+      <modelElement href="projekat%20-%20dusica.uml#_li2WgI_9Eeur1a3JGqqQQQ"/>
+      <keywords xmi:id="_ln4AlI_9Eeur1a3JGqqQQQ" keyword="create"/>
+      <visibility xmi:id="_ln4AlY_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_ln4Alo_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ln4Al4_9Eeur1a3JGqqQQQ">
+        <modelElement href="projekat%20-%20dusica.uml#_li2WhI_9Eeur1a3JGqqQQQ"/>
+        <type xmi:id="_ln4AmI_9Eeur1a3JGqqQQQ" name="Racun">
+          <modelElement href="projekat%20-%20dusica.uml#_lgeX8I_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ln4AmY_9Eeur1a3JGqqQQQ" name="konobar">
+        <modelElement href="projekat%20-%20dusica.uml#_li2WgY_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_ln4Amo_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_ln4Am4_9Eeur1a3JGqqQQQ" name="Konobar">
+          <modelElement href="projekat%20-%20dusica.uml#_lgQ8kI_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ln4AnI_9Eeur1a3JGqqQQQ" name="setRacun">
+      <modelElement href="projekat%20-%20dusica.uml#_li29kI_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_ln4AnY_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_ln4Ano_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ln4An4_9Eeur1a3JGqqQQQ" name="racun">
+        <modelElement href="projekat%20-%20dusica.uml#_li29kY_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_ln4AoI_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_ln4AoY_9Eeur1a3JGqqQQQ" name="Racun">
+          <modelElement href="projekat%20-%20dusica.uml#_lgeX8I_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ln4Aoo_9Eeur1a3JGqqQQQ" name="kucanjeRacuna">
+      <modelElement href="projekat%20-%20dusica.uml#_li29ko_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_ln4Ao4_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_ln4ApI_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ln4ApY_9Eeur1a3JGqqQQQ" name="g">
+        <modelElement href="projekat%20-%20dusica.uml#_li29k4_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_ln4Apo_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_ln4Ap4_9Eeur1a3JGqqQQQ" name="GotoviProizvodi">
+          <modelElement href="projekat%20-%20dusica.uml#_lgMrII_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ln4AqI_9Eeur1a3JGqqQQQ" name="prozorZaPrikazRacuna">
+      <modelElement href="projekat%20-%20dusica.uml#_ljJ4gI_9Eeur1a3JGqqQQQ"/>
+      <visibility xmi:id="_ln4AqY_9Eeur1a3JGqqQQQ" label="+"/>
+      <cardinality xmi:id="_ln4Aqo_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ln4Aq4_9Eeur1a3JGqqQQQ" name="vRacuni">
+        <modelElement href="projekat%20-%20dusica.uml#_ljJ4gY_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_ln4ArI_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_ln4ArY_9Eeur1a3JGqqQQQ" name="VBox">
+          <modelElement href="projekat%20-%20dusica.uml#_linF8Y_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ln4Aro_9Eeur1a3JGqqQQQ" name="menadzerProgram">
+        <modelElement href="projekat%20-%20dusica.uml#_ljJ4go_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_ln4Ar4_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_ln4AsI_9Eeur1a3JGqqQQQ" name="Scene">
+          <modelElement href="projekat%20-%20dusica.uml#_lihmYY_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ln4AsY_9Eeur1a3JGqqQQQ" name="stage">
+        <modelElement href="projekat%20-%20dusica.uml#_ljJ4g4_9Eeur1a3JGqqQQQ"/>
+        <cardinality xmi:id="_ln4Aso_9Eeur1a3JGqqQQQ" label="1" max="1" min="1"/>
+        <type xmi:id="_ln4As4_9Eeur1a3JGqqQQQ" name="Stage">
+          <modelElement href="projekat%20-%20dusica.uml#_lioUEY_9Eeur1a3JGqqQQQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

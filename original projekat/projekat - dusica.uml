@@ -1,0 +1,2247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_lQvS0I_9Eeur1a3JGqqQQQ" name="projekat___dusica">
+    <eAnnotations xmi:id="_lVMVAI_9Eeur1a3JGqqQQQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_lVM8EI_9Eeur1a3JGqqQQQ" source="codegen">
+        <details xmi:id="_lVM8EY_9Eeur1a3JGqqQQQ" key="codegenDirectory" value="/projekat - dusica/src"/>
+        <details xmi:id="_lnHygI_9Eeur1a3JGqqQQQ" key="AssociatedSourceCode" value="/projekat - dusica/src/projekat/App.java;1060602244/1;/projekat - dusica/src/projekat/Cenovnik.java;4110011982/1;/projekat - dusica/src/projekat/GotoviProizvodi.java;1731768826/1;/projekat - dusica/src/projekat/Konobar.java;1933182997/1;/projekat - dusica/src/projekat/Menadzer.java;3047159502/1;/projekat - dusica/src/projekat/Osoba.java;1971982304/1;/projekat - dusica/src/projekat/Racun.java;2462478888/1;/projekat - dusica/src/projekat/Restoran.java;3888175342/1;/projekat - dusica/src/projekat/Sirovina.java;3449540016/1;/projekat - dusica/src/projekat/Sto.java;1257663086/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_lfF34I_9Eeur1a3JGqqQQQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_lfF34Y_9Eeur1a3JGqqQQQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_lfF34o_9Eeur1a3JGqqQQQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_lfF344_9Eeur1a3JGqqQQQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_lfF35I_9Eeur1a3JGqqQQQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_lfGe8I_9Eeur1a3JGqqQQQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_lfGe8Y_9Eeur1a3JGqqQQQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_lfGe8o_9Eeur1a3JGqqQQQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_lfHGAI_9Eeur1a3JGqqQQQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_lfHtEI_9Eeur1a3JGqqQQQ" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_lfHtEY_9Eeur1a3JGqqQQQ" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_licG0I_9Eeur1a3JGqqQQQ" name="BufferedReader"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_lict4Y_9Eeur1a3JGqqQQQ" name="FileInputStream"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_lidU8I_9Eeur1a3JGqqQQQ" name="FileNotFoundException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_lidU8o_9Eeur1a3JGqqQQQ" name="FileReader"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_lid8AY_9Eeur1a3JGqqQQQ" name="IOException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_lid8A4_9Eeur1a3JGqqQQQ" name="PrintWriter"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_lislgI_9Eeur1a3JGqqQQQ" name="BufferedWriter"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_litMkY_9Eeur1a3JGqqQQQ" name="FileWriter"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_lfI7MI_9Eeur1a3JGqqQQQ" name="nio">
+        <packagedElement xmi:type="uml:Package" xmi:id="_lfI7MY_9Eeur1a3JGqqQQQ" name="file">
+          <packagedElement xmi:type="uml:Class" xmi:id="_liejEY_9Eeur1a3JGqqQQQ" name="Files"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_lifKIY_9Eeur1a3JGqqQQQ" name="Paths"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_lfI7Mo_9Eeur1a3JGqqQQQ" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_lifKI4_9Eeur1a3JGqqQQQ" name="ArrayList"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_li1vcY_9Eeur1a3JGqqQQQ" name="Date"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_lfrGsI_9Eeur1a3JGqqQQQ" name="time">
+        <packagedElement xmi:type="uml:Class" xmi:id="_li0hUI_9Eeur1a3JGqqQQQ" name="LocalDate"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_li1IYY_9Eeur1a3JGqqQQQ" name="LocalDateTime"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_lfJiQI_9Eeur1a3JGqqQQQ" name="javafx">
+      <packagedElement xmi:type="uml:Package" xmi:id="_lfJiQY_9Eeur1a3JGqqQQQ" name="application">
+        <packagedElement xmi:type="uml:Class" xmi:id="_lifxMY_9Eeur1a3JGqqQQQ" name="Application"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_lfJiQo_9Eeur1a3JGqqQQQ" name="collections">
+        <packagedElement xmi:type="uml:Class" xmi:id="_ligYQY_9Eeur1a3JGqqQQQ" name="FXCollections"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_lig_UI_9Eeur1a3JGqqQQQ" name="ObservableList"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_lfKJUI_9Eeur1a3JGqqQQQ" name="geometry">
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_lig_Uo_9Eeur1a3JGqqQQQ" name="Pos"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_lfKJUY_9Eeur1a3JGqqQQQ" name="scene">
+        <packagedElement xmi:type="uml:Package" xmi:id="_lfKJUo_9Eeur1a3JGqqQQQ" name="control">
+          <packagedElement xmi:type="uml:Package" xmi:id="_lfKwYI_9Eeur1a3JGqqQQQ" name="cell">
+            <packagedElement xmi:type="uml:Class" xmi:id="_lilQwY_9Eeur1a3JGqqQQQ" name="PropertyValueFactory"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_lihmY4_9Eeur1a3JGqqQQQ" name="Button"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_liiNcY_9Eeur1a3JGqqQQQ" name="Label"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_lii0gY_9Eeur1a3JGqqQQQ" name="Menu"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_lii0g4_9Eeur1a3JGqqQQQ" name="MenuBar"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_lijbkY_9Eeur1a3JGqqQQQ" name="MenuItem"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_lijbk4_9Eeur1a3JGqqQQQ" name="TableColumn"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_likCoY_9Eeur1a3JGqqQQQ" name="TableView"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_likpsY_9Eeur1a3JGqqQQQ" name="TextArea"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_likps4_9Eeur1a3JGqqQQQ" name="TextField"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_lfLXcI_9Eeur1a3JGqqQQQ" name="image">
+          <packagedElement xmi:type="uml:Class" xmi:id="_lil30Y_9Eeur1a3JGqqQQQ" name="Image"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_lime4I_9Eeur1a3JGqqQQQ" name="ImageView"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_lfL-gI_9Eeur1a3JGqqQQQ" name="layout">
+          <packagedElement xmi:type="uml:Class" xmi:id="_lime4o_9Eeur1a3JGqqQQQ" name="HBox"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_linF8Y_9Eeur1a3JGqqQQQ" name="VBox"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_lfMlkI_9Eeur1a3JGqqQQQ" name="shape">
+          <packagedElement xmi:type="uml:Class" xmi:id="_lintAI_9Eeur1a3JGqqQQQ" name="Rectangle"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_lfMlkY_9Eeur1a3JGqqQQQ" name="text">
+          <packagedElement xmi:type="uml:Class" xmi:id="_lintAo_9Eeur1a3JGqqQQQ" name="Text"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_lipiMI_9Eeur1a3JGqqQQQ" name="Font"/>
+          <packagedElement xmi:type="uml:Enumeration" xmi:id="_lipiMo_9Eeur1a3JGqqQQQ" name="FontPosture"/>
+          <packagedElement xmi:type="uml:Enumeration" xmi:id="_liqJQY_9Eeur1a3JGqqQQQ" name="FontWeight"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_lihmYY_9Eeur1a3JGqqQQQ" name="Scene"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_lfNMoI_9Eeur1a3JGqqQQQ" name="stage">
+        <packagedElement xmi:type="uml:Class" xmi:id="_lioUEY_9Eeur1a3JGqqQQQ" name="Stage"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_lfPB0I_9Eeur1a3JGqqQQQ" name="projekat">
+      <packagedElement xmi:type="uml:Class" xmi:id="_lgC6II_9Eeur1a3JGqqQQQ" name="App">
+        <generalization xmi:id="_li_gco_9Eeur1a3JGqqQQQ" general="_lifxMY_9Eeur1a3JGqqQQQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ljWs0I_9Eeur1a3JGqqQQQ" name="main" specification="_lgEIQI_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljWs0Y_9Eeur1a3JGqqQQQ" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ljWs0o_9Eeur1a3JGqqQQQ" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>launch(args);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ljWs04_9Eeur1a3JGqqQQQ" name="start" specification="_li_gcI_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljWs1I_9Eeur1a3JGqqQQQ" name="stage" type="_lioUEY_9Eeur1a3JGqqQQQ"/>
+          <language>java</language>
+          <body>VBox vBox = new VBox();&#xD;
+		HBox hBox = new HBox();&#xD;
+		Scene glavnaStrana = new Scene(vBox, 600, 600);&#xD;
+		&#xD;
+		Image image3 = new Image(new FileInputStream(&quot;slike/blue.png&quot;));&#xD;
+		ImageView pravougaonik = new ImageView(image3);&#xD;
+		pravougaonik.setScaleX(300);&#xD;
+		pravougaonik.setFitHeight(80); &#xD;
+		pravougaonik.setFitWidth(80); &#xD;
+		&#xD;
+		Image image1 = new Image(new FileInputStream(&quot;slike/menager.png&quot;));&#xD;
+		ImageView menadzerDugme = new ImageView(image1);&#xD;
+		&#xD;
+		Image image2 = new Image(new FileInputStream(&quot;slike/waiter.png&quot;));&#xD;
+		ImageView konobarDugme = new ImageView(image2);&#xD;
+//		&#xD;
+//		Button menadzerDugme = new Button(&quot;MENADZER&quot;);&#xD;
+//		Button konobarDugme = new Button(&quot;KONOBAR&quot;);&#xD;
+		Konobar konobar = new Konobar();&#xD;
+		Menadzer menadzer = new Menadzer();&#xD;
+		&#xD;
+		menadzerDugme.setOnMouseClicked(e -> menadzer.prozor(stage, hBox, vBox, glavnaStrana));&#xD;
+		konobarDugme.setOnMouseClicked(a->konobar.prozor(stage, hBox, vBox, glavnaStrana));&#xD;
+		&#xD;
+		menadzerDugme.setFitHeight(80); &#xD;
+		menadzerDugme.setFitWidth(80); &#xD;
+		konobarDugme.setFitHeight(80); &#xD;
+		konobarDugme.setFitWidth(80);&#xD;
+		&#xD;
+		try {&#xD;
+&#xD;
+			Image image;&#xD;
+			image = new Image(new FileInputStream(&quot;slike/logo.jpg&quot;));&#xD;
+			ImageView imageView = new ImageView(image); &#xD;
+			 &#xD;
+			imageView.setFitHeight(455); &#xD;
+			imageView.setFitWidth(600); &#xD;
+			&#xD;
+			ImageView imageView1 = new ImageView(image); &#xD;
+			 &#xD;
+			imageView1.setFitHeight(455); &#xD;
+			imageView1.setFitWidth(500); &#xD;
+			vBox.getChildren().add(imageView);&#xD;
+			&#xD;
+		} catch (FileNotFoundException e1) {&#xD;
+			e1.printStackTrace();&#xD;
+		}&#xD;
+		&#xD;
+		vBox.setSpacing(10);&#xD;
+		hBox.setSpacing(95);&#xD;
+		hBox.getChildren().addAll(pravougaonik,menadzerDugme, konobarDugme);&#xD;
+		vBox.getChildren().addAll(hBox);&#xD;
+		stage.setTitle(&quot;Projekat - Restoran&quot;);&#xD;
+		stage.setScene(glavnaStrana);&#xD;
+		stage.show();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_lgEIQI_9Eeur1a3JGqqQQQ" name="main" isStatic="true" method="_ljWs0I_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_lgEIQY_9Eeur1a3JGqqQQQ" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lgEvUI_9Eeur1a3JGqqQQQ" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_li_gcI_9Eeur1a3JGqqQQQ" name="start" method="_ljWs04_9Eeur1a3JGqqQQQ" raisedException="_lidU8I_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_li_gcY_9Eeur1a3JGqqQQQ" name="stage" type="_lioUEY_9Eeur1a3JGqqQQQ"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_lgGkgI_9Eeur1a3JGqqQQQ" name="Cenovnik">
+        <ownedAttribute xmi:id="_ljM70I_9Eeur1a3JGqqQQQ" name="namirnice" type="_lifKI4_9Eeur1a3JGqqQQQ" association="_ljf2wI_9Eeur1a3JGqqQQQ">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_ljOJ8Y_9Eeur1a3JGqqQQQ" value="new ArrayList&lt;GotoviProizvodi>()"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ljWs1Y_9Eeur1a3JGqqQQQ" name="prozorZaPrikazCenovnika" specification="_ljAHgI_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljWs1o_9Eeur1a3JGqqQQQ" name="vCenovnik" type="_linF8Y_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljWs14_9Eeur1a3JGqqQQQ" name="menadzerProgram" type="_lihmYY_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljWs2I_9Eeur1a3JGqqQQQ" name="stage" type="_lioUEY_9Eeur1a3JGqqQQQ"/>
+          <language>java</language>
+          <body>Button vratiMe = new Button(&quot;nazad&quot;);&#xD;
+		vratiMe.setOnMouseClicked(e -> {&#xD;
+			vCenovnik.getChildren().clear();&#xD;
+			stage.setScene(menadzerProgram);&#xD;
+		});&#xD;
+		&#xD;
+		TableView&lt;GotoviProizvodi> tableView = new TableView&lt;>();&#xD;
+		TableColumn&lt;GotoviProizvodi, String> col1 = new TableColumn&lt;>();&#xD;
+		TableColumn&lt;GotoviProizvodi, String> col2 = new TableColumn&lt;>();&#xD;
+		TableColumn&lt;GotoviProizvodi, String> col3 = new TableColumn&lt;>();&#xD;
+		&#xD;
+		col1.setText(&quot;Naziv&quot;);&#xD;
+		col2.setText(&quot;Cena&quot;);&#xD;
+		col3.setText(&quot;Tip&quot;);&#xD;
+		&#xD;
+		col1.setCellValueFactory(new PropertyValueFactory&lt;GotoviProizvodi, String>(&quot;naziv&quot;));&#xD;
+		col2.setCellValueFactory(new PropertyValueFactory&lt;GotoviProizvodi, String>(&quot;cena&quot;));&#xD;
+		col3.setCellValueFactory(new PropertyValueFactory&lt;GotoviProizvodi, String>(&quot;tip&quot;));&#xD;
+		&#xD;
+		tableView.getColumns().addAll(col1, col2, col3);&#xD;
+		&#xD;
+		ObservableList&lt;GotoviProizvodi> gp = FXCollections.observableArrayList();&#xD;
+		&#xD;
+		BufferedReader reader;&#xD;
+		try {&#xD;
+			reader = new BufferedReader(new FileReader(&quot;cenovnik.txt&quot;));&#xD;
+			ArrayList&lt;String> line = new ArrayList&lt;String>();&#xD;
+			line.add(reader.readLine());&#xD;
+			while (line.get(line.size()-1) != null) {&#xD;
+				line.add(reader.readLine());&#xD;
+			}&#xD;
+			line.remove(line.size()-1); // na ovom mestu je ushvacen null i stavljen u niz&#xD;
+			&#xD;
+			for (int j = 0; j &lt; line.size(); j++) {&#xD;
+				String[] prim = line.get(j).split(&quot;@&quot;);&#xD;
+				if(prim.length == 3) {&#xD;
+		        	Integer k = Integer.parseInt(prim[1]);&#xD;
+		        	String p;&#xD;
+		        	if(prim[2].compareTo(&quot;pice&quot;) == 0) {&#xD;
+		        		p = &quot;pice&quot;;&#xD;
+		        	}else {&#xD;
+		        		p = &quot;hrana&quot;;&#xD;
+		        	}&#xD;
+		        	&#xD;
+					gp.add(new GotoviProizvodi(prim[0],k, p));&#xD;
+					prim = null;&#xD;
+		    	}	&#xD;
+			}&#xD;
+			&#xD;
+			PrintWriter writer = new PrintWriter(&quot;cenovnik.txt&quot;);&#xD;
+			for (int l = 0; l&lt; line.size(); l++) {&#xD;
+				writer.print(line.get(l));&#xD;
+				writer.println();&#xD;
+			}&#xD;
+			&#xD;
+			writer.close();&#xD;
+			&#xD;
+			reader.close();&#xD;
+		} catch (IOException e) {&#xD;
+			e.printStackTrace();&#xD;
+		}&#xD;
+		&#xD;
+		&#xD;
+		&#xD;
+		tableView.setItems(gp);&#xD;
+		vCenovnik.getChildren().addAll(tableView, vratiMe);&#xD;
+		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ljXT4I_9Eeur1a3JGqqQQQ" name="prozorZaPrikazPica" specification="_ljAukI_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljXT4Y_9Eeur1a3JGqqQQQ" name="vCenovnik" type="_linF8Y_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljXT4o_9Eeur1a3JGqqQQQ" name="menadzerProgram" type="_lihmYY_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljXT44_9Eeur1a3JGqqQQQ" name="stage" type="_lioUEY_9Eeur1a3JGqqQQQ"/>
+          <language>java</language>
+          <body>Button vratiMe = new Button(&quot;nazad&quot;);&#xD;
+		HBox hbox = new HBox();&#xD;
+		vratiMe.setOnMouseClicked(e -> {&#xD;
+			hbox.getChildren().clear();&#xD;
+			vCenovnik.getChildren().clear();&#xD;
+			stage.setScene(menadzerProgram);&#xD;
+		});&#xD;
+		Button obrisi = new Button(&quot;obrisi pice&quot;);&#xD;
+		&#xD;
+		TableView&lt;GotoviProizvodi> tableView = new TableView&lt;>();&#xD;
+		TableColumn&lt;GotoviProizvodi, String> col1 = new TableColumn&lt;>();&#xD;
+		TableColumn&lt;GotoviProizvodi, String> col2 = new TableColumn&lt;>();&#xD;
+		&#xD;
+		col1.setText(&quot;Naziv&quot;);&#xD;
+		col2.setText(&quot;Cena&quot;);&#xD;
+		&#xD;
+		col1.setCellValueFactory(new PropertyValueFactory&lt;GotoviProizvodi, String>(&quot;naziv&quot;));&#xD;
+		col2.setCellValueFactory(new PropertyValueFactory&lt;GotoviProizvodi, String>(&quot;cena&quot;));&#xD;
+		&#xD;
+		tableView.getColumns().addAll(col1, col2);&#xD;
+		&#xD;
+		ObservableList&lt;GotoviProizvodi> tipPice = FXCollections.observableArrayList();&#xD;
+		&#xD;
+		BufferedReader reader;&#xD;
+		try {&#xD;
+			reader = new BufferedReader(new FileReader(&quot;cenovnik.txt&quot;));&#xD;
+			ArrayList&lt;String> line = new ArrayList&lt;String>();&#xD;
+			line.add(reader.readLine());&#xD;
+			while (line.get(line.size()-1) != null) {&#xD;
+				line.add(reader.readLine());&#xD;
+			}&#xD;
+			line.remove(line.size()-1); // na ovom mestu je ushvacen null i stavljen u niz&#xD;
+			&#xD;
+			for (int j = 0; j &lt; line.size(); j++) {&#xD;
+				String[] prim = line.get(j).split(&quot;@&quot;);&#xD;
+				if(prim.length == 3) {&#xD;
+		        	Integer k = Integer.parseInt(prim[1]);&#xD;
+		        	if(prim[2].compareTo(&quot;pice&quot;) == 0) {&#xD;
+		        		tipPice.add(new GotoviProizvodi(prim[0], k, &quot;pice&quot;));&#xD;
+		        	&#xD;
+					prim = null;&#xD;
+		    	}	&#xD;
+			}}&#xD;
+			&#xD;
+			PrintWriter writer = new PrintWriter(&quot;cenovnik.txt&quot;);&#xD;
+			for (int l = 0; l&lt; line.size(); l++) {&#xD;
+				writer.print(line.get(l));&#xD;
+				writer.println();&#xD;
+			}&#xD;
+			&#xD;
+			writer.close();&#xD;
+			&#xD;
+			reader.close();&#xD;
+		} catch (IOException ex) {&#xD;
+			ex.printStackTrace();&#xD;
+		}&#xD;
+		&#xD;
+		tableView.setItems(tipPice);&#xD;
+		&#xD;
+		&#xD;
+		obrisi.setOnMouseClicked(e->{&#xD;
+			ObservableList&lt;GotoviProizvodi> izabrano = FXCollections.observableArrayList();&#xD;
+			izabrano = tableView.getSelectionModel().getSelectedItems();&#xD;
+			&#xD;
+			BufferedReader reader1;&#xD;
+			try {&#xD;
+				reader1 = new BufferedReader(new FileReader(&quot;cenovnik.txt&quot;));&#xD;
+				ArrayList&lt;String> line = new ArrayList&lt;String>();&#xD;
+				line.add(reader1.readLine());&#xD;
+				while (line.get(line.size()-1) != null) {&#xD;
+					line.add(reader1.readLine());&#xD;
+				}&#xD;
+				line.remove(line.size()-1); // na ovom mestu je ushvacen null i stavljen u niz&#xD;
+				&#xD;
+				PrintWriter writer = new PrintWriter(&quot;cenovnik.txt&quot;);&#xD;
+				for (int l = 0; l&lt; line.size(); l++) {&#xD;
+					String[] prim = line.get(l).split(&quot;@&quot;);&#xD;
+					if(prim[0].compareTo(izabrano.get(0).getNaziv())!= 0) {&#xD;
+						writer.print(line.get(l));&#xD;
+						writer.println();&#xD;
+					}&#xD;
+				}&#xD;
+				&#xD;
+				writer.close();&#xD;
+				reader1.close();&#xD;
+				&#xD;
+				izabrano.forEach(tipPice::remove);&#xD;
+			} catch (IOException ex) {&#xD;
+				ex.printStackTrace();&#xD;
+			}});&#xD;
+		&#xD;
+		hbox.getChildren().addAll(obrisi, vratiMe);&#xD;
+		vCenovnik.getChildren().addAll(tableView, hbox);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ljXT5I_9Eeur1a3JGqqQQQ" name="dodajPice" specification="_ljBVoI_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljXT5Y_9Eeur1a3JGqqQQQ" name="vCenovnik" type="_linF8Y_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljXT5o_9Eeur1a3JGqqQQQ" name="menadzerProgram" type="_lihmYY_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljXT54_9Eeur1a3JGqqQQQ" name="stage" type="_lioUEY_9Eeur1a3JGqqQQQ"/>
+          <language>java</language>
+          <body>Button vratiMe = new Button(&quot;nazad&quot;);&#xD;
+		HBox hbox = new HBox();&#xD;
+		vratiMe.setOnMouseClicked(e -> {&#xD;
+			hbox.getChildren().clear();&#xD;
+			vCenovnik.getChildren().clear();&#xD;
+			stage.setScene(menadzerProgram);&#xD;
+		});&#xD;
+		&#xD;
+		TextField nazivArtikla = new TextField();&#xD;
+		TextField cenaArtikla = new TextField();&#xD;
+		nazivArtikla.setPromptText(&quot;Naziv Artikla&quot;);&#xD;
+		cenaArtikla.setPromptText(&quot;Cena Artikla&quot;);&#xD;
+		&#xD;
+		Button dodaj = new Button(&quot;dodaj&quot;);&#xD;
+		dodaj.setOnMouseClicked(e -> {&#xD;
+		&#xD;
+		GotoviProizvodi product = new GotoviProizvodi();&#xD;
+     product.setNaziv(nazivArtikla.getText());&#xD;
+     product.setCena(Integer.parseInt(cenaArtikla.getText()));&#xD;
+     product.setTip(&quot;pice&quot;);&#xD;
+     &#xD;
+     nazivArtikla.clear();&#xD;
+     cenaArtikla.clear();&#xD;
+     &#xD;
+     product.dodajUFajl();&#xD;
+     &#xD;
+     Text text = new Text(&quot;Uspesno ste dodali novi artikal!&quot;);&#xD;
+     text.setX(50); &#xD;
+     text.setY(50);&#xD;
+     text.setFont(Font.font(&quot;verdana&quot;, FontWeight.BOLD, FontPosture.REGULAR, 10));&#xD;
+     text.setUnderline(true);&#xD;
+     &#xD;
+     vCenovnik.getChildren().add(text);&#xD;
+		});&#xD;
+     &#xD;
+		&#xD;
+		hbox.getChildren().addAll(nazivArtikla, cenaArtikla, dodaj);&#xD;
+     vCenovnik.getChildren().addAll(hbox, vratiMe);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ljXT6I_9Eeur1a3JGqqQQQ" name="prozorZaPrikazHrane" specification="_ljB8sI_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljXT6Y_9Eeur1a3JGqqQQQ" name="vCenovnik" type="_linF8Y_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljXT6o_9Eeur1a3JGqqQQQ" name="menadzerProgram" type="_lihmYY_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljXT64_9Eeur1a3JGqqQQQ" name="stage" type="_lioUEY_9Eeur1a3JGqqQQQ"/>
+          <language>java</language>
+          <body>Button vratiMe = new Button(&quot;nazad&quot;);&#xD;
+		HBox hbox = new HBox();&#xD;
+		vratiMe.setOnMouseClicked(e -> {&#xD;
+			hbox.getChildren().clear();&#xD;
+			vCenovnik.getChildren().clear();&#xD;
+			stage.setScene(menadzerProgram);&#xD;
+		});&#xD;
+		Button obrisi = new Button(&quot;obrisi hranu&quot;);&#xD;
+		&#xD;
+		TableView&lt;GotoviProizvodi> tableView = new TableView&lt;>();&#xD;
+		TableColumn&lt;GotoviProizvodi, String> col1 = new TableColumn&lt;>();&#xD;
+		TableColumn&lt;GotoviProizvodi, String> col2 = new TableColumn&lt;>();&#xD;
+		&#xD;
+		col1.setText(&quot;Naziv&quot;);&#xD;
+		col2.setText(&quot;Cena&quot;);&#xD;
+		&#xD;
+		col1.setCellValueFactory(new PropertyValueFactory&lt;GotoviProizvodi, String>(&quot;naziv&quot;));&#xD;
+		col2.setCellValueFactory(new PropertyValueFactory&lt;GotoviProizvodi, String>(&quot;cena&quot;));&#xD;
+		&#xD;
+		tableView.getColumns().addAll(col1, col2);&#xD;
+		&#xD;
+		ObservableList&lt;GotoviProizvodi> tipPice = FXCollections.observableArrayList();&#xD;
+		&#xD;
+		BufferedReader reader;&#xD;
+		try {&#xD;
+			reader = new BufferedReader(new FileReader(&quot;cenovnik.txt&quot;));&#xD;
+			ArrayList&lt;String> line = new ArrayList&lt;String>();&#xD;
+			line.add(reader.readLine());&#xD;
+			while (line.get(line.size()-1) != null) {&#xD;
+				line.add(reader.readLine());&#xD;
+			}&#xD;
+			line.remove(line.size()-1); // na ovom mestu je ushvacen null i stavljen u niz&#xD;
+			&#xD;
+			for (int j = 0; j &lt; line.size(); j++) {&#xD;
+				String[] prim = line.get(j).split(&quot;@&quot;);&#xD;
+				if(prim.length == 3) {&#xD;
+		        	Integer k = Integer.parseInt(prim[1]);&#xD;
+		        	if(prim[2].compareTo(&quot;hrana&quot;) == 0) {&#xD;
+		        		tipPice.add(new GotoviProizvodi(prim[0], k, &quot;hrana&quot;));&#xD;
+		        	&#xD;
+					prim = null;&#xD;
+		    	}	&#xD;
+			}}&#xD;
+			&#xD;
+			PrintWriter writer = new PrintWriter(&quot;cenovnik.txt&quot;);&#xD;
+			for (int l = 0; l&lt; line.size(); l++) {&#xD;
+				writer.print(line.get(l));&#xD;
+				writer.println();&#xD;
+			}&#xD;
+			&#xD;
+			writer.close();&#xD;
+			&#xD;
+			reader.close();&#xD;
+		} catch (IOException ex) {&#xD;
+			ex.printStackTrace();&#xD;
+		}&#xD;
+		&#xD;
+		tableView.setItems(tipPice);&#xD;
+		&#xD;
+		&#xD;
+		obrisi.setOnMouseClicked(e->{&#xD;
+			ObservableList&lt;GotoviProizvodi> izabrano = FXCollections.observableArrayList();&#xD;
+			izabrano = tableView.getSelectionModel().getSelectedItems();&#xD;
+			&#xD;
+			BufferedReader reader1;&#xD;
+			try {&#xD;
+				reader1 = new BufferedReader(new FileReader(&quot;cenovnik.txt&quot;));&#xD;
+				ArrayList&lt;String> line = new ArrayList&lt;String>();&#xD;
+				line.add(reader1.readLine());&#xD;
+				while (line.get(line.size()-1) != null) {&#xD;
+					line.add(reader1.readLine());&#xD;
+				}&#xD;
+				line.remove(line.size()-1); // na ovom mestu je ushvacen null i stavljen u niz&#xD;
+				&#xD;
+				PrintWriter writer = new PrintWriter(&quot;cenovnik.txt&quot;);&#xD;
+				for (int l = 0; l&lt; line.size(); l++) {&#xD;
+					String[] prim = line.get(l).split(&quot;@&quot;);&#xD;
+					if(prim[0].compareTo(izabrano.get(0).getNaziv())!= 0) {&#xD;
+						writer.print(line.get(l));&#xD;
+						writer.println();&#xD;
+					}&#xD;
+				}&#xD;
+				&#xD;
+				writer.close();&#xD;
+				reader1.close();&#xD;
+				&#xD;
+				izabrano.forEach(tipPice::remove);&#xD;
+			} catch (IOException ex) {&#xD;
+				ex.printStackTrace();&#xD;
+			}});&#xD;
+		&#xD;
+		hbox.getChildren().addAll(obrisi, vratiMe);&#xD;
+		vCenovnik.getChildren().addAll(tableView, hbox);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ljXT7I_9Eeur1a3JGqqQQQ" name="dodajHranu" specification="_ljB8tI_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljXT7Y_9Eeur1a3JGqqQQQ" name="vCenovnik" type="_linF8Y_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljXT7o_9Eeur1a3JGqqQQQ" name="menadzerProgram" type="_lihmYY_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljXT74_9Eeur1a3JGqqQQQ" name="stage" type="_lioUEY_9Eeur1a3JGqqQQQ"/>
+          <language>java</language>
+          <body>Button vratiMe = new Button(&quot;nazad&quot;);&#xD;
+		HBox hbox = new HBox();&#xD;
+		vratiMe.setOnMouseClicked(e -> {&#xD;
+			hbox.getChildren().clear();&#xD;
+			vCenovnik.getChildren().clear();&#xD;
+			stage.setScene(menadzerProgram);&#xD;
+		});&#xD;
+		&#xD;
+		TextField nazivArtikla = new TextField();&#xD;
+		TextField cenaArtikla = new TextField();&#xD;
+		nazivArtikla.setPromptText(&quot;Naziv Artikla&quot;);&#xD;
+		cenaArtikla.setPromptText(&quot;Cena Artikla&quot;);&#xD;
+		&#xD;
+		Button dodaj = new Button(&quot;dodaj&quot;);&#xD;
+		dodaj.setOnMouseClicked(e -> {&#xD;
+		&#xD;
+		GotoviProizvodi product = new GotoviProizvodi();&#xD;
+     product.setNaziv(nazivArtikla.getText());&#xD;
+     product.setCena(Integer.parseInt(cenaArtikla.getText()));&#xD;
+     product.setTip(&quot;hrana&quot;);&#xD;
+     &#xD;
+     nazivArtikla.clear();&#xD;
+     cenaArtikla.clear();&#xD;
+     &#xD;
+     product.dodajUFajl();&#xD;
+     &#xD;
+     Text text = new Text(&quot;Uspesno ste dodali novi artikal!&quot;);&#xD;
+     text.setX(50); &#xD;
+     text.setY(50);&#xD;
+     text.setFont(Font.font(&quot;verdana&quot;, FontWeight.BOLD, FontPosture.REGULAR, 10));&#xD;
+     text.setUnderline(true);&#xD;
+     &#xD;
+     vCenovnik.getChildren().add(text);&#xD;
+		});&#xD;
+     &#xD;
+		&#xD;
+		hbox.getChildren().addAll(nazivArtikla, cenaArtikla, dodaj);&#xD;
+     vCenovnik.getChildren().addAll(hbox, vratiMe);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_lgHLkI_9Eeur1a3JGqqQQQ" name="Cenovnik" visibility="package">
+          <eAnnotations xmi:id="_lgHyoI_9Eeur1a3JGqqQQQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_lgHyoY_9Eeur1a3JGqqQQQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_lgIZsI_9Eeur1a3JGqqQQQ" type="_lgGkgI_9Eeur1a3JGqqQQQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ljAHgI_9Eeur1a3JGqqQQQ" name="prozorZaPrikazCenovnika" method="_ljWs1Y_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljAHgY_9Eeur1a3JGqqQQQ" name="vCenovnik" type="_linF8Y_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljAHgo_9Eeur1a3JGqqQQQ" name="menadzerProgram" type="_lihmYY_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljAHg4_9Eeur1a3JGqqQQQ" name="stage" type="_lioUEY_9Eeur1a3JGqqQQQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ljAukI_9Eeur1a3JGqqQQQ" name="prozorZaPrikazPica" method="_ljXT4I_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljAukY_9Eeur1a3JGqqQQQ" name="vCenovnik" type="_linF8Y_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljAuko_9Eeur1a3JGqqQQQ" name="menadzerProgram" type="_lihmYY_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljAuk4_9Eeur1a3JGqqQQQ" name="stage" type="_lioUEY_9Eeur1a3JGqqQQQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ljBVoI_9Eeur1a3JGqqQQQ" name="dodajPice" method="_ljXT5I_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljBVoY_9Eeur1a3JGqqQQQ" name="vCenovnik" type="_linF8Y_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljBVoo_9Eeur1a3JGqqQQQ" name="menadzerProgram" type="_lihmYY_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljBVo4_9Eeur1a3JGqqQQQ" name="stage" type="_lioUEY_9Eeur1a3JGqqQQQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ljB8sI_9Eeur1a3JGqqQQQ" name="prozorZaPrikazHrane" method="_ljXT6I_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljB8sY_9Eeur1a3JGqqQQQ" name="vCenovnik" type="_linF8Y_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljB8so_9Eeur1a3JGqqQQQ" name="menadzerProgram" type="_lihmYY_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljB8s4_9Eeur1a3JGqqQQQ" name="stage" type="_lioUEY_9Eeur1a3JGqqQQQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ljB8tI_9Eeur1a3JGqqQQQ" name="dodajHranu" method="_ljXT7I_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljB8tY_9Eeur1a3JGqqQQQ" name="vCenovnik" type="_linF8Y_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljCjwI_9Eeur1a3JGqqQQQ" name="menadzerProgram" type="_lihmYY_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljCjwY_9Eeur1a3JGqqQQQ" name="stage" type="_lioUEY_9Eeur1a3JGqqQQQ"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_lgMrII_9Eeur1a3JGqqQQQ" name="GotoviProizvodi">
+        <ownedAttribute xmi:id="_ljOxAI_9Eeur1a3JGqqQQQ" name="naziv">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_ljOxAY_9Eeur1a3JGqqQQQ" name="cena">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_ljPYEI_9Eeur1a3JGqqQQQ" name="tip">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_ljPYEY_9Eeur1a3JGqqQQQ" name="namirnice" type="_lifKI4_9Eeur1a3JGqqQQQ" association="_ljgd0Y_9Eeur1a3JGqqQQQ">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_ljP_IY_9Eeur1a3JGqqQQQ" value="new ArrayList&lt;Sirovina>()"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ljX68I_9Eeur1a3JGqqQQQ" name="GotoviProizvodi" specification="_lgOgUI_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljX68Y_9Eeur1a3JGqqQQQ" name="naziv">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ljX68o_9Eeur1a3JGqqQQQ" name="cena">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ljX684_9Eeur1a3JGqqQQQ" type="_lgMrII_9Eeur1a3JGqqQQQ" direction="return"/>
+          <language>java</language>
+          <body>this.naziv = naziv;&#xD;
+		this.cena = cena;&#xD;
+		this.tip = &quot;pice&quot;;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ljX69I_9Eeur1a3JGqqQQQ" name="GotoviProizvodi" specification="_lgPHYI_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljX69Y_9Eeur1a3JGqqQQQ" name="naziv">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ljX69o_9Eeur1a3JGqqQQQ" name="cena">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ljX694_9Eeur1a3JGqqQQQ" name="tip">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ljX6-I_9Eeur1a3JGqqQQQ" type="_lgMrII_9Eeur1a3JGqqQQQ" direction="return"/>
+          <language>java</language>
+          <body>this.naziv = naziv;&#xD;
+		this.cena = cena;&#xD;
+		this.tip = tip;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ljX6-Y_9Eeur1a3JGqqQQQ" name="dodajSirovinuURecept" specification="_litzoY_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljX6-o_9Eeur1a3JGqqQQQ" name="s" type="_lglFoI_9Eeur1a3JGqqQQQ"/>
+          <language>java</language>
+          <body>this.namirnice.add(s);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ljX6-4_9Eeur1a3JGqqQQQ" name="ispis" specification="_lgPucI_9Eeur1a3JGqqQQQ">
+          <language>java</language>
+          <body>System.out.println(&quot;-------PROIZVODI------&quot;);&#xD;
+		if(getTip() == &quot;hrana&quot;) {&#xD;
+			System.out.println(&quot;Naziv obroka: &quot; + naziv);&#xD;
+		}&#xD;
+		if(getTip() == &quot;pice&quot;) {&#xD;
+			System.out.println(&quot;Naziv pica: &quot; + naziv);&#xD;
+		}&#xD;
+		&#xD;
+		System.out.println(&quot;Cena: &quot; + cena);&#xD;
+		if(namirnice.size() == 0) {&#xD;
+			System.out.println(&quot;Ovaj proizvod se ne pravi rucno!&quot;);&#xD;
+		}else {&#xD;
+			System.out.println(&quot;Sastojci: &quot;);&#xD;
+			for(int i = 0 ; i&lt; namirnice.size() ; i++) {&#xD;
+				System.out.println((i+1) + &quot;.&quot; );&#xD;
+				namirnice.get(i).ispis();&#xD;
+		}&#xD;
+		System.out.println(&quot;---------------------&quot;);&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ljX6_I_9Eeur1a3JGqqQQQ" name="toSting" specification="_lgPucY_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljX6_Y_9Eeur1a3JGqqQQQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>String proizvod;&#xD;
+		&#xD;
+		proizvod = naziv + &quot;@&quot; + String.valueOf(cena) + &quot;@&quot;;&#xD;
+		if(getTip() == &quot;pice&quot;) {&#xD;
+			proizvod = proizvod + (&quot;pice&quot;);&#xD;
+		}else {&#xD;
+			proizvod = proizvod + (&quot;hrana&quot;);&#xD;
+		}&#xD;
+		&#xD;
+		return proizvod;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ljX6_o_9Eeur1a3JGqqQQQ" name="dodajUFajl" specification="_lgPuc4_9Eeur1a3JGqqQQQ">
+          <language>java</language>
+          <body>StringBuilder sb = new StringBuilder();&#xD;
+		try (BufferedReader br = Files.newBufferedReader(Paths.get(&quot;cenovnik.txt&quot;))) {&#xD;
+&#xD;
+         // read line by line&#xD;
+         String line;&#xD;
+         while ((line = br.readLine()) != null) {&#xD;
+             sb.append(line).append(&quot;\n&quot;);&#xD;
+         }&#xD;
+&#xD;
+	        } catch (IOException e) {&#xD;
+	            System.err.format(&quot;IOException: %s%n&quot;, e);&#xD;
+	        }&#xD;
+			&#xD;
+			try (FileWriter writer = new FileWriter(&quot;cenovnik.txt&quot;);&#xD;
+				 BufferedWriter bw = new BufferedWriter(writer)) {&#xD;
+				&#xD;
+				bw.write(sb.toString());&#xD;
+				bw.write(this.toSting());&#xD;
+				bw.newLine();&#xD;
+	&#xD;
+			} catch (IOException e) {&#xD;
+				System.err.format(&quot;IOException: %s%n&quot;, e);&#xD;
+			}&#xD;
+			&#xD;
+		</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_lgNSMI_9Eeur1a3JGqqQQQ" name="GotoviProizvodi">
+          <eAnnotations xmi:id="_lgN5QI_9Eeur1a3JGqqQQQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_lgN5QY_9Eeur1a3JGqqQQQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_lgN5Q4_9Eeur1a3JGqqQQQ" type="_lgMrII_9Eeur1a3JGqqQQQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_lgOgUI_9Eeur1a3JGqqQQQ" name="GotoviProizvodi" method="_ljX68I_9Eeur1a3JGqqQQQ">
+          <eAnnotations xmi:id="_lgOgU4_9Eeur1a3JGqqQQQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_lgOgVI_9Eeur1a3JGqqQQQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_lgOgUY_9Eeur1a3JGqqQQQ" name="naziv">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_lgOgUo_9Eeur1a3JGqqQQQ" name="cena">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_lgOgVY_9Eeur1a3JGqqQQQ" type="_lgMrII_9Eeur1a3JGqqQQQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_lgPHYI_9Eeur1a3JGqqQQQ" name="GotoviProizvodi" method="_ljX69I_9Eeur1a3JGqqQQQ">
+          <eAnnotations xmi:id="_lgPHZI_9Eeur1a3JGqqQQQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_lgPHZY_9Eeur1a3JGqqQQQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_lgPHYY_9Eeur1a3JGqqQQQ" name="naziv">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_lgPHYo_9Eeur1a3JGqqQQQ" name="cena">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_lgPHY4_9Eeur1a3JGqqQQQ" name="tip">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_lgPHZo_9Eeur1a3JGqqQQQ" type="_lgMrII_9Eeur1a3JGqqQQQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_lgPucI_9Eeur1a3JGqqQQQ" name="ispis" method="_ljX6-4_9Eeur1a3JGqqQQQ"/>
+        <ownedOperation xmi:id="_lgPucY_9Eeur1a3JGqqQQQ" name="toSting" method="_ljX6_I_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_lgPuco_9Eeur1a3JGqqQQQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_lgPuc4_9Eeur1a3JGqqQQQ" name="dodajUFajl" method="_ljX6_o_9Eeur1a3JGqqQQQ"/>
+        <ownedOperation xmi:id="_litzoY_9Eeur1a3JGqqQQQ" name="dodajSirovinuURecept" method="_ljX6-Y_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_litzoo_9Eeur1a3JGqqQQQ" name="s" type="_lglFoI_9Eeur1a3JGqqQQQ"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_lgQ8kI_9Eeur1a3JGqqQQQ" name="Konobar">
+        <generalization xmi:id="_liwP4I_9Eeur1a3JGqqQQQ" general="_lgb7sI_9Eeur1a3JGqqQQQ"/>
+        <ownedAttribute xmi:id="_ljQmMI_9Eeur1a3JGqqQQQ" name="tip">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ljYiAI_9Eeur1a3JGqqQQQ" name="Konobar" specification="_lgQ8kY_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljYiAY_9Eeur1a3JGqqQQQ" type="_lgQ8kI_9Eeur1a3JGqqQQQ" direction="return"/>
+          <language>java</language>
+          <body>super();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ljYiAo_9Eeur1a3JGqqQQQ" name="Konobar" specification="_lgRjo4_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljYiA4_9Eeur1a3JGqqQQQ" name="ime">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ljYiBI_9Eeur1a3JGqqQQQ" name="prezime">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ljYiBY_9Eeur1a3JGqqQQQ" type="_lgQ8kI_9Eeur1a3JGqqQQQ" direction="return"/>
+          <language>java</language>
+          <body>super(ime, prezime);&#xD;
+		tip = &quot;konobar&quot;;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ljYiBo_9Eeur1a3JGqqQQQ" name="otvoriRestoran" specification="_lgSKso_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljYiB4_9Eeur1a3JGqqQQQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return true;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ljYiCI_9Eeur1a3JGqqQQQ" name="izdavanjeRacuna" specification="_livo0I_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljYiCY_9Eeur1a3JGqqQQQ" name="s" type="_lgnh4I_9Eeur1a3JGqqQQQ"/>
+          <language>java</language>
+          <body>if(s.getRacun() != null) {&#xD;
+			s.getRacun().ispis();&#xD;
+			&#xD;
+			StringBuilder sb = new StringBuilder();&#xD;
+			try (BufferedReader br = Files.newBufferedReader(Paths.get(&quot;racuni.txt&quot;))) {&#xD;
+&#xD;
+	            // read line by line&#xD;
+	            String line;&#xD;
+	            while ((line = br.readLine()) != null) {&#xD;
+	                sb.append(line).append(&quot;\n&quot;);&#xD;
+	            }&#xD;
+&#xD;
+	        } catch (IOException e) {&#xD;
+	            System.err.format(&quot;IOException: %s%n&quot;, e);&#xD;
+	        }&#xD;
+			&#xD;
+			try (FileWriter writer = new FileWriter(&quot;racuni.txt&quot;);&#xD;
+				 BufferedWriter bw = new BufferedWriter(writer)) {&#xD;
+				&#xD;
+				bw.write(sb.toString());&#xD;
+				bw.write(s.getRacun().toSting());&#xD;
+				bw.newLine();&#xD;
+&#xD;
+			} catch (IOException e) {&#xD;
+				System.err.format(&quot;IOException: %s%n&quot;, e);&#xD;
+			}&#xD;
+			&#xD;
+			s.isprazniSto();&#xD;
+		}&#xD;
+		&#xD;
+		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ljYiCo_9Eeur1a3JGqqQQQ" name="toSting" specification="_lgSKtI_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljYiC4_9Eeur1a3JGqqQQQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>String konobar;&#xD;
+		&#xD;
+		konobar = this.getIme() + &quot;@&quot; + this.getPrezime() + &quot;@konobar&quot;;&#xD;
+		&#xD;
+		return konobar;&#xD;
+	&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ljYiDI_9Eeur1a3JGqqQQQ" name="dodajUFajl" specification="_lgSxwI_9Eeur1a3JGqqQQQ">
+          <language>java</language>
+          <body>StringBuilder sb = new StringBuilder();&#xD;
+		try (BufferedReader br = Files.newBufferedReader(Paths.get(&quot;osobe.txt&quot;))) {&#xD;
+&#xD;
+         // read line by line&#xD;
+         String line;&#xD;
+         while ((line = br.readLine()) != null) {&#xD;
+             sb.append(line).append(&quot;\n&quot;);&#xD;
+         }&#xD;
+&#xD;
+	        } catch (IOException e) {&#xD;
+	            System.err.format(&quot;IOException: %s%n&quot;, e);&#xD;
+	        }&#xD;
+			&#xD;
+			try (FileWriter writer = new FileWriter(&quot;osobe.txt&quot;);&#xD;
+				 BufferedWriter bw = new BufferedWriter(writer)) {&#xD;
+				&#xD;
+				bw.write(sb.toString());&#xD;
+				bw.write(this.toSting());&#xD;
+				bw.newLine();&#xD;
+	&#xD;
+			} catch (IOException e) {&#xD;
+				System.err.format(&quot;IOException: %s%n&quot;, e);&#xD;
+			}&#xD;
+			&#xD;
+		</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ljZJEI_9Eeur1a3JGqqQQQ" name="prozor" specification="_ljDx4I_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljZJEY_9Eeur1a3JGqqQQQ" name="stage" type="_lioUEY_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljZJEo_9Eeur1a3JGqqQQQ" name="hBox" type="_lime4o_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljZJE4_9Eeur1a3JGqqQQQ" name="vBox" type="_linF8Y_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljZJFI_9Eeur1a3JGqqQQQ" name="glavnaStrana" type="_lihmYY_9Eeur1a3JGqqQQQ"/>
+          <language>java</language>
+          <body>VBox vBoxK = new VBox();&#xD;
+		&#xD;
+		Scene konobarProgram = new Scene(vBoxK, 610, 650);&#xD;
+		stage.setScene(konobarProgram);&#xD;
+		&#xD;
+		Button odjava1 = new Button(&quot;ODJAVI SE&quot;);&#xD;
+		odjava1.setOnMouseClicked(e->stage.setScene(glavnaStrana));&#xD;
+		prozorZaPrikazStolova(vBoxK, stage, konobarProgram);&#xD;
+		vBoxK.getChildren().add(odjava1);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ljZJFY_9Eeur1a3JGqqQQQ" name="prozorZaPrikazKonobara" specification="_ljEY84_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljZJFo_9Eeur1a3JGqqQQQ" name="vKonobari" type="_linF8Y_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljZJF4_9Eeur1a3JGqqQQQ" name="menadzerProgram" type="_lihmYY_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljZJGI_9Eeur1a3JGqqQQQ" name="stage" type="_lioUEY_9Eeur1a3JGqqQQQ"/>
+          <language>java</language>
+          <body>TableView&lt;Konobar> tableView1 = new TableView&lt;>();&#xD;
+		TableColumn&lt;Konobar, String> col11 = new TableColumn&lt;>();&#xD;
+		TableColumn&lt;Konobar, String> col22 = new TableColumn&lt;>();&#xD;
+		&#xD;
+		col11.setText(&quot;Ime&quot;);&#xD;
+		col22.setText(&quot;Prezime&quot;);&#xD;
+		&#xD;
+		col11.setCellValueFactory(new PropertyValueFactory&lt;Konobar, String>(&quot;ime&quot;));&#xD;
+		col22.setCellValueFactory(new PropertyValueFactory&lt;Konobar, String>(&quot;prezime&quot;));&#xD;
+		&#xD;
+		ObservableList&lt;Konobar> gp1 = FXCollections.observableArrayList();&#xD;
+		&#xD;
+		try {&#xD;
+			BufferedReader reader1;&#xD;
+			reader1 = new BufferedReader(new FileReader(&quot;osobe.txt&quot;));&#xD;
+			ArrayList&lt;String> line = new ArrayList&lt;String>();&#xD;
+			line.add(reader1.readLine());&#xD;
+			while (line.get(line.size()-1) != null) {&#xD;
+				line.add(reader1.readLine());&#xD;
+			}&#xD;
+			line.remove(line.size()-1); // na ovom mestu je ushvacen null i stavljen u niz&#xD;
+			&#xD;
+			for (int j = 0; j &lt; line.size(); j++) {&#xD;
+				String[] prim = line.get(j).split(&quot;@&quot;);&#xD;
+				if(prim.length == 3) {&#xD;
+					if(prim[2].equals(&quot;konobar&quot;) == true) {&#xD;
+						gp1.add(new Konobar(prim[0],prim[1]));&#xD;
+						prim = null;&#xD;
+					}&#xD;
+		    	}	&#xD;
+			}&#xD;
+			&#xD;
+			PrintWriter writer = new PrintWriter(&quot;osobe.txt&quot;);&#xD;
+			for (int l = 0; l&lt; line.size(); l++) {&#xD;
+				writer.print(line.get(l));&#xD;
+				writer.println();&#xD;
+			}&#xD;
+			&#xD;
+			writer.close();&#xD;
+			&#xD;
+			reader1.close();&#xD;
+		} catch (IOException e) {&#xD;
+			e.printStackTrace();&#xD;
+		}&#xD;
+			&#xD;
+		tableView1.getColumns().addAll(col11, col22);&#xD;
+		tableView1.setItems(gp1);&#xD;
+		&#xD;
+		Button vratiMe1 = new Button(&quot;nazad&quot;);&#xD;
+		vratiMe1.setOnMouseClicked(e -> {&#xD;
+			vKonobari.getChildren().clear();&#xD;
+			stage.setScene(menadzerProgram);&#xD;
+		});&#xD;
+		&#xD;
+		vKonobari.getChildren().addAll(tableView1, vratiMe1);&#xD;
+		&#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ljZJGY_9Eeur1a3JGqqQQQ" name="dodajKonobara" specification="_ljFAAo_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljZJGo_9Eeur1a3JGqqQQQ" name="vbox" type="_linF8Y_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljZJG4_9Eeur1a3JGqqQQQ" name="menadzerProgram" type="_lihmYY_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljZJHI_9Eeur1a3JGqqQQQ" name="stage" type="_lioUEY_9Eeur1a3JGqqQQQ"/>
+          <language>java</language>
+          <body>TextField ime = new TextField();&#xD;
+		TextField prezime = new TextField();&#xD;
+		ime.setPromptText(&quot;Ime konobara&quot;);&#xD;
+		prezime.setPromptText(&quot;Prezime konobara&quot;);&#xD;
+		&#xD;
+		HBox hKonobar1 = new HBox();&#xD;
+		Button vratiMe1 = new Button(&quot;nazad&quot;);&#xD;
+		vratiMe1.setOnMouseClicked(e -> {&#xD;
+			hKonobar1.getChildren().clear();&#xD;
+			vbox.getChildren().clear();&#xD;
+			stage.setScene(menadzerProgram);&#xD;
+		});&#xD;
+		&#xD;
+		Button dodaj = new Button(&quot;dodaj&quot;);&#xD;
+		dodaj.setOnMouseClicked(e -> {&#xD;
+			Konobar product = new Konobar();&#xD;
+	        product.setIme(ime.getText());&#xD;
+	        product.setPrezime(prezime.getText());&#xD;
+	        ime.clear();&#xD;
+	        prezime.clear();&#xD;
+	        &#xD;
+	        product.dodajUFajl();&#xD;
+	        &#xD;
+	        Text text = new Text(&quot;Uspesno ste dodali novog konobara!&quot;);&#xD;
+	        text.setX(50); &#xD;
+	        text.setY(50);&#xD;
+	        text.setFont(Font.font(&quot;verdana&quot;, FontWeight.BOLD, FontPosture.REGULAR, 10));&#xD;
+	        text.setUnderline(true);&#xD;
+	        vbox.getChildren().add(text);&#xD;
+		});&#xD;
+		&#xD;
+		hKonobar1.getChildren().addAll(ime, prezime, dodaj);&#xD;
+		&#xD;
+		vbox.getChildren().addAll(hKonobar1, vratiMe1);&#xD;
+		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ljZJHY_9Eeur1a3JGqqQQQ" name="obrisiKonobara" specification="_ljFnEY_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljZJHo_9Eeur1a3JGqqQQQ" name="vKonobari" type="_linF8Y_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljZJH4_9Eeur1a3JGqqQQQ" name="menadzerProgram" type="_lihmYY_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljZJII_9Eeur1a3JGqqQQQ" name="stage" type="_lioUEY_9Eeur1a3JGqqQQQ"/>
+          <language>java</language>
+          <body>TableView&lt;Konobar> tableView1 = new TableView&lt;>();&#xD;
+		TableColumn&lt;Konobar, String> col11 = new TableColumn&lt;>();&#xD;
+		TableColumn&lt;Konobar, String> col22 = new TableColumn&lt;>();&#xD;
+		&#xD;
+		col11.setText(&quot;Ime&quot;);&#xD;
+		col22.setText(&quot;Prezime&quot;);&#xD;
+		&#xD;
+		col11.setCellValueFactory(new PropertyValueFactory&lt;Konobar, String>(&quot;ime&quot;));&#xD;
+		col22.setCellValueFactory(new PropertyValueFactory&lt;Konobar, String>(&quot;prezime&quot;));&#xD;
+		&#xD;
+		ObservableList&lt;Konobar> gp1 = FXCollections.observableArrayList();&#xD;
+		&#xD;
+		&#xD;
+		try {&#xD;
+			BufferedReader reader1;&#xD;
+			reader1 = new BufferedReader(new FileReader(&quot;osobe.txt&quot;));&#xD;
+			ArrayList&lt;String> line = new ArrayList&lt;String>();&#xD;
+			line.add(reader1.readLine());&#xD;
+			while (line.get(line.size()-1) != null) {&#xD;
+				line.add(reader1.readLine());&#xD;
+			}&#xD;
+			line.remove(line.size()-1); // na ovom mestu je ushvacen null i stavljen u niz&#xD;
+			&#xD;
+			for (int j = 0; j &lt; line.size(); j++) {&#xD;
+				String[] prim = line.get(j).split(&quot;@&quot;);&#xD;
+				if(prim.length == 3) {&#xD;
+					if(prim[2].equals(&quot;konobar&quot;) == true) {&#xD;
+						gp1.add(new Konobar(prim[0],prim[1]));&#xD;
+						prim = null;&#xD;
+					}&#xD;
+		    	}	&#xD;
+			}&#xD;
+			&#xD;
+			PrintWriter writer = new PrintWriter(&quot;osobe.txt&quot;);&#xD;
+			for (int l = 0; l&lt; line.size(); l++) {&#xD;
+				writer.print(line.get(l));&#xD;
+				writer.println();&#xD;
+			}&#xD;
+			&#xD;
+			writer.close();&#xD;
+			&#xD;
+			reader1.close();&#xD;
+		} catch (IOException e) {&#xD;
+			e.printStackTrace();&#xD;
+		}&#xD;
+			&#xD;
+&#xD;
+		tableView1.getColumns().addAll(col11, col22);&#xD;
+		tableView1.setItems(gp1);&#xD;
+		&#xD;
+		HBox hKonobar1 = new HBox();&#xD;
+		&#xD;
+		Button vratiMe1 = new Button(&quot;nazad&quot;);&#xD;
+		vratiMe1.setOnMouseClicked(e -> {&#xD;
+			hKonobar1.getChildren().clear();&#xD;
+			vKonobari.getChildren().clear();&#xD;
+			stage.setScene(menadzerProgram);&#xD;
+		});&#xD;
+		&#xD;
+		Button obrisi = new Button(&quot;obrisi&quot;);&#xD;
+		hKonobar1.getChildren().addAll(obrisi, vratiMe1);&#xD;
+		&#xD;
+		obrisi.setOnMouseClicked(e -> {&#xD;
+			ObservableList&lt;Konobar> izabrano = FXCollections.observableArrayList();&#xD;
+			izabrano = tableView1.getSelectionModel().getSelectedItems();&#xD;
+			System.out.println(izabrano.get(0).getIme());&#xD;
+			String ime = izabrano.get(0).getIme();&#xD;
+			&#xD;
+			izabrano.forEach(gp1::remove);&#xD;
+			&#xD;
+			BufferedReader reader1;&#xD;
+			try {&#xD;
+				reader1 = new BufferedReader(new FileReader(&quot;osobe.txt&quot;));&#xD;
+				ArrayList&lt;String> line = new ArrayList&lt;String>();&#xD;
+				line.add(reader1.readLine());&#xD;
+				while (line.get(line.size()-1) != null) {&#xD;
+					line.add(reader1.readLine());&#xD;
+				}&#xD;
+				line.remove(line.size()-1); // na ovom mestu je ushvacen null i stavljen u niz&#xD;
+				&#xD;
+				PrintWriter writer = new PrintWriter(&quot;osobe.txt&quot;);&#xD;
+				for (int l = 0; l&lt; line.size(); l++) {&#xD;
+					String[] prim = line.get(l).split(&quot;@&quot;);&#xD;
+					if(prim[0].compareTo(ime)!= 0) {&#xD;
+						writer.print(line.get(l));&#xD;
+						writer.println();&#xD;
+					}&#xD;
+				}&#xD;
+				&#xD;
+				writer.close();&#xD;
+				&#xD;
+				reader1.close();&#xD;
+			} catch (IOException ex) {&#xD;
+				ex.printStackTrace();&#xD;
+			}&#xD;
+			&#xD;
+			vKonobari.getChildren().removeAll(tableView1, hKonobar1);&#xD;
+			vKonobari.getChildren().addAll(tableView1, hKonobar1);&#xD;
+		});&#xD;
+		&#xD;
+		vKonobari.getChildren().addAll(tableView1, hKonobar1);&#xD;
+		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ljZJIY_9Eeur1a3JGqqQQQ" name="prozorZaPrikazStolova" specification="_ljGOIo_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljZJIo_9Eeur1a3JGqqQQQ" name="vBoxK" type="_linF8Y_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljZJI4_9Eeur1a3JGqqQQQ" name="stage" type="_lioUEY_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljZJJI_9Eeur1a3JGqqQQQ" name="konobarScene" type="_lihmYY_9Eeur1a3JGqqQQQ"/>
+          <language>java</language>
+          <body>try {&#xD;
+			&#xD;
+			HBox hBoxK1 = new HBox();&#xD;
+			HBox hBoxK2 = new HBox();&#xD;
+			HBox hBoxK3 = new HBox();&#xD;
+			&#xD;
+			Image image = new Image(new FileInputStream(&quot;slike/table.png&quot;));&#xD;
+			Image image1 = new Image(new FileInputStream(&quot;slike/table1.png&quot;));&#xD;
+			Image image2 = new Image(new FileInputStream(&quot;slike/table2.png&quot;));&#xD;
+			Image image3 = new Image(new FileInputStream(&quot;slike/table3.png&quot;));&#xD;
+			Image image4 = new Image(new FileInputStream(&quot;slike/table4.png&quot;));&#xD;
+			ImageView imageView1 = new ImageView(image2);&#xD;
+			ImageView imageView2 = new ImageView(image1);&#xD;
+			ImageView imageView3 = new ImageView(image3);&#xD;
+			ImageView imageView4 = new ImageView(image);&#xD;
+			ImageView imageView5 = new ImageView(image4);&#xD;
+			ImageView imageView6 = new ImageView(image);&#xD;
+			ImageView imageView7 = new ImageView(image2);&#xD;
+			ImageView imageView8 = new ImageView(image);&#xD;
+			ImageView imageView9 = new ImageView(image1);&#xD;
+			&#xD;
+			VBox vb1 = new VBox();&#xD;
+			&#xD;
+			Sto sto1 = new Sto(&quot;1&quot;);&#xD;
+			Scene s1 = new Scene(vb1, 500, 500);&#xD;
+			imageView1.setOnMouseClicked(e -> stage.setScene(s1));&#xD;
+			prozorZaKucanjeRacuna(s1, vb1,stage,sto1,konobarScene);&#xD;
+			&#xD;
+			VBox vb2 = new VBox();&#xD;
+			Scene s2 = new Scene(vb2, 500, 500);&#xD;
+			imageView2.setOnMouseClicked(e -> stage.setScene(s2));&#xD;
+			Sto sto2 = new Sto(&quot;2&quot;);&#xD;
+			prozorZaKucanjeRacuna(s2, vb2,stage,sto2,konobarScene);&#xD;
+			&#xD;
+			VBox vb3 = new VBox();&#xD;
+			Scene s3 = new Scene(vb3, 500, 500);&#xD;
+			imageView3.setOnMouseClicked(e -> stage.setScene(s3));&#xD;
+			Sto sto3 = new Sto(&quot;3&quot;);&#xD;
+			prozorZaKucanjeRacuna(s3, vb3,stage,sto3,konobarScene);&#xD;
+			&#xD;
+			VBox vb4 = new VBox();&#xD;
+			Scene s4 = new Scene(vb4, 500, 500);&#xD;
+			imageView4.setOnMouseClicked(e -> stage.setScene(s4));&#xD;
+			Sto sto4 = new Sto(&quot;4&quot;);&#xD;
+			prozorZaKucanjeRacuna(s4, vb4,stage,sto4,konobarScene);&#xD;
+			&#xD;
+			VBox vb5 = new VBox();&#xD;
+			Scene s5 = new Scene(vb5, 500, 500);&#xD;
+			imageView5.setOnMouseClicked(e -> stage.setScene(s5));&#xD;
+			Sto sto5 = new Sto(&quot;5&quot;);&#xD;
+			prozorZaKucanjeRacuna(s5, vb5,stage,sto5,konobarScene);&#xD;
+			&#xD;
+			VBox vb6 = new VBox();&#xD;
+			Scene s6 = new Scene(vb6, 500, 500);&#xD;
+			imageView6.setOnMouseClicked(e -> stage.setScene(s6));&#xD;
+			Sto sto6 = new Sto(&quot;6&quot;);&#xD;
+			prozorZaKucanjeRacuna(s6, vb6,stage,sto6,konobarScene);&#xD;
+			&#xD;
+			VBox vb7 = new VBox();&#xD;
+			Scene s7 = new Scene(vb7, 500, 500);&#xD;
+			imageView7.setOnMouseClicked(e -> stage.setScene(s7));&#xD;
+			Sto sto7 = new Sto(&quot;7&quot;);&#xD;
+			prozorZaKucanjeRacuna(s7, vb7,stage,sto7,konobarScene);&#xD;
+			&#xD;
+			VBox vb8 = new VBox();&#xD;
+			Scene s8 = new Scene(vb8, 500, 500);&#xD;
+			imageView8.setOnMouseClicked(e -> stage.setScene(s8));&#xD;
+			Sto sto8 = new Sto(&quot;8&quot;);&#xD;
+			prozorZaKucanjeRacuna(s8, vb8,stage,sto8,konobarScene);&#xD;
+			&#xD;
+			VBox vb9 = new VBox();&#xD;
+			Scene s9 = new Scene(vb9, 500, 500);&#xD;
+			imageView9.setOnMouseClicked(e -> stage.setScene(s9));&#xD;
+			Sto sto9 = new Sto(&quot;9&quot;);&#xD;
+			prozorZaKucanjeRacuna(s9, vb9,stage,sto9,konobarScene);&#xD;
+			&#xD;
+			&#xD;
+			imageView1.setFitHeight(200); &#xD;
+			imageView1.setFitWidth(200); &#xD;
+			imageView2.setFitHeight(200); &#xD;
+			imageView2.setFitWidth(200);&#xD;
+			imageView3.setFitHeight(200); &#xD;
+			imageView3.setFitWidth(200); &#xD;
+			imageView4.setFitHeight(200); &#xD;
+			imageView4.setFitWidth(200); &#xD;
+			imageView5.setFitHeight(200); &#xD;
+			imageView5.setFitWidth(200); &#xD;
+			imageView6.setFitHeight(200); &#xD;
+			imageView6.setFitWidth(200); &#xD;
+			imageView7.setFitHeight(200); &#xD;
+			imageView7.setFitWidth(200); &#xD;
+			imageView8.setFitHeight(200); &#xD;
+			imageView8.setFitWidth(200); &#xD;
+			imageView9.setFitHeight(200); &#xD;
+			imageView9.setFitWidth(200); &#xD;
+			 &#xD;
+			hBoxK1.getChildren().addAll(imageView1, imageView2,imageView3);&#xD;
+			hBoxK2.getChildren().addAll(imageView4, imageView5,imageView6);&#xD;
+			hBoxK3.getChildren().addAll(imageView7, imageView8,imageView9);&#xD;
+			vBoxK.getChildren().addAll(hBoxK1, hBoxK2,hBoxK3);&#xD;
+			&#xD;
+		} catch (FileNotFoundException e1) {&#xD;
+			e1.printStackTrace();&#xD;
+		}  &#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ljZJJY_9Eeur1a3JGqqQQQ" name="prozorZaKucanjeRacuna" specification="_ljG1MI_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljZJJo_9Eeur1a3JGqqQQQ" name="scene" type="_lihmYY_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljZJJ4_9Eeur1a3JGqqQQQ" name="vbox" type="_linF8Y_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljZJKI_9Eeur1a3JGqqQQQ" name="stage" type="_lioUEY_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljZJKY_9Eeur1a3JGqqQQQ" name="s" type="_lgnh4I_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljZJKo_9Eeur1a3JGqqQQQ" name="konobarScene" type="_lihmYY_9Eeur1a3JGqqQQQ"/>
+          <language>java</language>
+          <body>Konobar konobar = new Konobar(); &#xD;
+		Racun racun = new Racun();&#xD;
+		&#xD;
+		//ako je sto zauzet konobar je vec izabran i racun vec postoji&#xD;
+		if(s.stanje() == false) {&#xD;
+			konobar.setIme(s.getRacun().getKonobar().getIme());&#xD;
+			konobar.setPrezime(s.getRacun().getKonobar().getPrezime());&#xD;
+			racun.setRacun(s.getRacun());&#xD;
+		}&#xD;
+			&#xD;
+		Image image1 = new Image(new FileInputStream(&quot;slike/waiter.png&quot;));&#xD;
+		ImageView imageView1 = new ImageView(image1);&#xD;
+		imageView1.setX(0);&#xD;
+		imageView1.setY(50);&#xD;
+		imageView1.setFitHeight(80); &#xD;
+		imageView1.setFitWidth(80); &#xD;
+		&#xD;
+		&#xD;
+		Button dodajArtikal = new Button(&quot;Dodaj Artikal Na Racun&quot;);&#xD;
+		Button izdajRacun = new Button(&quot;Izdaj Racun&quot;);&#xD;
+		Button nazad = new Button(&quot;Vrati Se!&quot;);&#xD;
+		Button obrisiArtikal = new Button(&quot;Obrisi artikal&quot;);&#xD;
+		Text cena = new Text(&quot;Ukupna Cena Racuna: &quot; + racun.getUkupnaCena());&#xD;
+		Text konobarIzabran = new Text();&#xD;
+		Button zapocniNovi = new Button(&quot;Kucaj Novi Racun&quot;);&#xD;
+		ArrayList&lt;GotoviProizvodi> gotovi = new ArrayList&lt;GotoviProizvodi>();&#xD;
+		&#xD;
+		if(konobar.getIme() != null) {&#xD;
+			konobarIzabran.setText(&quot;Konobar : &quot; + konobar.getIme() + &quot; &quot; + konobar.getPrezime());&#xD;
+		}&#xD;
+		&#xD;
+		TableView&lt;GotoviProizvodi> tv = new TableView&lt;GotoviProizvodi>();&#xD;
+		TableColumn&lt;GotoviProizvodi, String> kol1 = new TableColumn&lt;GotoviProizvodi, String>(&quot;naziv artikla&quot;);&#xD;
+		TableColumn&lt;GotoviProizvodi, String> kol2 = new TableColumn&lt;GotoviProizvodi, String>(&quot;cena artikla&quot;);&#xD;
+		kol1.setCellValueFactory(new PropertyValueFactory&lt;GotoviProizvodi, String>(&quot;naziv&quot;));&#xD;
+		kol2.setCellValueFactory(new PropertyValueFactory&lt;GotoviProizvodi, String>(&quot;cena&quot;));&#xD;
+		&#xD;
+		tv.getItems().clear();&#xD;
+		tv.getColumns().addAll(kol1, kol2);&#xD;
+			&#xD;
+		ObservableList&lt;GotoviProizvodi> ol = FXCollections.observableArrayList();&#xD;
+		&#xD;
+		&#xD;
+		if(konobar.getIme() == null) {&#xD;
+			vbox.getChildren().clear();&#xD;
+			vbox.getChildren().addAll(imageView1, dodajArtikal, izdajRacun, nazad); &#xD;
+		}else {&#xD;
+			cena.setText(&quot;Ukupna Cena Racuna: &quot; + racun.getUkupnaCena());&#xD;
+			vbox.getChildren().addAll(konobarIzabran, tv, dodajArtikal, obrisiArtikal, cena, izdajRacun, nazad); &#xD;
+		}&#xD;
+			&#xD;
+		//dugme za vracanje na predhodnu stranicu&#xD;
+		nazad.setOnMouseClicked(ee->{&#xD;
+			vbox.getChildren().clear();&#xD;
+			if(konobar.getIme() == null) {&#xD;
+				vbox.getChildren().addAll(imageView1, dodajArtikal, izdajRacun, nazad); &#xD;
+			}else {&#xD;
+				cena.setText(&quot;Ukupna Cena Racuna: &quot; + racun.getUkupnaCena());&#xD;
+				vbox.getChildren().addAll(konobarIzabran, tv, dodajArtikal, obrisiArtikal, cena, izdajRacun, nazad); &#xD;
+			}&#xD;
+			stage.setScene(konobarScene);&#xD;
+		});&#xD;
+		&#xD;
+		//dugme za brisanje artikla sa racuna&#xD;
+		obrisiArtikal.setOnMouseClicked(a->{&#xD;
+			ObservableList&lt;GotoviProizvodi> izabrano = FXCollections.observableArrayList();&#xD;
+			izabrano = tv.getSelectionModel().getSelectedItems();&#xD;
+			&#xD;
+			for(int i = 0; i&lt; gotovi.size(); i++) {&#xD;
+				if(izabrano.get(0).getNaziv() == gotovi.get(i).getNaziv()) {&#xD;
+					int ukupnaCena= racun.getUkupnaCena() - gotovi.get(i).getCena();&#xD;
+					racun.setUkupnaCena(ukupnaCena);&#xD;
+					cena.setText(&quot;Ukupna Cena Racuna: &quot; + racun.getUkupnaCena());&#xD;
+					gotovi.remove(i);&#xD;
+				}&#xD;
+			}&#xD;
+			&#xD;
+			izabrano.forEach(ol::remove);&#xD;
+			&#xD;
+		});&#xD;
+		&#xD;
+	//prikaz slike kolnobara gde moze da se izabere ko kuca racun&#xD;
+	imageView1.setOnMouseClicked(el->{&#xD;
+	&#xD;
+	vbox.getChildren().clear();&#xD;
+	&#xD;
+	TableView&lt;Konobar> tableView = new TableView&lt;>();&#xD;
+	TableColumn&lt;Konobar, String> col1 = new TableColumn&lt;>();&#xD;
+	TableColumn&lt;Konobar, String> col2 = new TableColumn&lt;>();&#xD;
+	&#xD;
+	col1.setText(&quot;Ime&quot;);&#xD;
+	col2.setText(&quot;Prezime&quot;);&#xD;
+	&#xD;
+	col1.setCellValueFactory(new PropertyValueFactory&lt;Konobar, String>(&quot;ime&quot;));&#xD;
+	col2.setCellValueFactory(new PropertyValueFactory&lt;Konobar, String>(&quot;prezime&quot;));&#xD;
+	&#xD;
+	ObservableList&lt;Konobar> gp = FXCollections.observableArrayList();&#xD;
+	&#xD;
+	try {&#xD;
+		BufferedReader reader1;&#xD;
+		reader1 = new BufferedReader(new FileReader(&quot;osobe.txt&quot;));&#xD;
+		ArrayList&lt;String> line = new ArrayList&lt;String>();&#xD;
+		line.add(reader1.readLine());&#xD;
+		while (line.get(line.size()-1) != null) {&#xD;
+			line.add(reader1.readLine());&#xD;
+		}&#xD;
+		line.remove(line.size()-1); // na ovom mestu je ushvacen null i stavljen u niz&#xD;
+		&#xD;
+		for (int j = 0; j &lt; line.size(); j++) {&#xD;
+			String[] prim = line.get(j).split(&quot;@&quot;);&#xD;
+			if(prim.length == 3) {&#xD;
+				if(prim[2].equals(&quot;konobar&quot;) == true) {&#xD;
+					gp.add(new Konobar(prim[0],prim[1]));&#xD;
+					prim = null;&#xD;
+				}&#xD;
+	    	}	&#xD;
+		}&#xD;
+		&#xD;
+		PrintWriter writer = new PrintWriter(&quot;osobe.txt&quot;);&#xD;
+		for (int l = 0; l&lt; line.size(); l++) {&#xD;
+			writer.print(line.get(l));&#xD;
+			writer.println();&#xD;
+		}&#xD;
+		&#xD;
+		writer.close();&#xD;
+		&#xD;
+		reader1.close();&#xD;
+	} catch (IOException e) {&#xD;
+		e.printStackTrace();&#xD;
+	}&#xD;
+		&#xD;
+&#xD;
+	tableView.getColumns().addAll(col1, col2);&#xD;
+	tableView.setItems(gp);&#xD;
+	&#xD;
+	Button izaberi = new Button(&quot;izaberi&quot;);&#xD;
+		&#xD;
+	//dugme za biranje konobara&#xD;
+	izaberi.setOnMouseClicked(e-> {&#xD;
+		tv.getItems().clear();&#xD;
+		ObservableList&lt;Konobar> izabrano = FXCollections.observableArrayList();&#xD;
+		izabrano = tableView.getSelectionModel().getSelectedItems();&#xD;
+		Konobar k = izabrano.get(0);&#xD;
+		String[] split = k.toSting().split(&quot;@&quot;);&#xD;
+		&#xD;
+		konobar.setIme(split[0]);&#xD;
+		konobar.setPrezime(split[1]);&#xD;
+		racun.setKonobar(konobar);&#xD;
+	&#xD;
+		konobarIzabran.setText(&quot;Racun izdaje konobar: &quot; + split[0] + &quot; &quot; + split[1]);&#xD;
+		vbox.getChildren().clear();&#xD;
+		cena.setText(&quot;Ukupna Cena Racuna: &quot; + racun.getUkupnaCena());&#xD;
+		vbox.getChildren().addAll(konobarIzabran, tv, dodajArtikal, obrisiArtikal, cena, izdajRacun, nazad);&#xD;
+			&#xD;
+		});&#xD;
+	&#xD;
+	vbox.getChildren().addAll(tableView, izaberi);&#xD;
+		&#xD;
+	});&#xD;
+			&#xD;
+			&#xD;
+	//dugme dodaj artikal&#xD;
+	dodajArtikal.setOnMouseClicked(em->{&#xD;
+		&#xD;
+		vbox.getChildren().clear();&#xD;
+		&#xD;
+		TableView&lt;GotoviProizvodi> tableView = new TableView&lt;>();&#xD;
+		TableColumn&lt;GotoviProizvodi, String> col1 = new TableColumn&lt;>();&#xD;
+		TableColumn&lt;GotoviProizvodi, String> col2 = new TableColumn&lt;>();&#xD;
+		TableColumn&lt;GotoviProizvodi, String> col3 = new TableColumn&lt;>();&#xD;
+		&#xD;
+		col1.setText(&quot;Naziv&quot;);&#xD;
+		col2.setText(&quot;Cena&quot;);&#xD;
+		col3.setText(&quot;Tip&quot;);&#xD;
+		&#xD;
+		col1.setCellValueFactory(new PropertyValueFactory&lt;GotoviProizvodi, String>(&quot;naziv&quot;));&#xD;
+		col2.setCellValueFactory(new PropertyValueFactory&lt;GotoviProizvodi, String>(&quot;cena&quot;));&#xD;
+		col3.setCellValueFactory(new PropertyValueFactory&lt;GotoviProizvodi, String>(&quot;tip&quot;));&#xD;
+		&#xD;
+		tableView.getColumns().addAll(col1, col2, col3);&#xD;
+		&#xD;
+		ObservableList&lt;GotoviProizvodi> gp = FXCollections.observableArrayList();&#xD;
+		&#xD;
+		BufferedReader reader;&#xD;
+		try {&#xD;
+			reader = new BufferedReader(new FileReader(&quot;cenovnik.txt&quot;));&#xD;
+			ArrayList&lt;String> line = new ArrayList&lt;String>();&#xD;
+			line.add(reader.readLine());&#xD;
+			while (line.get(line.size()-1) != null) {&#xD;
+				line.add(reader.readLine());&#xD;
+			}&#xD;
+			line.remove(line.size()-1); // na ovom mestu je ushvacen null i stavljen u niz&#xD;
+			&#xD;
+			for (int j = 0; j &lt; line.size(); j++) {&#xD;
+				String[] prim = line.get(j).split(&quot;@&quot;);&#xD;
+				if(prim.length == 3) {&#xD;
+		        	Integer k = Integer.parseInt(prim[1]);&#xD;
+		        	String p;&#xD;
+		        	if(prim[2].compareTo(&quot;pice&quot;) == 0) {&#xD;
+		        		p = &quot;pice&quot;;&#xD;
+		        	}else {&#xD;
+		        		p = &quot;hrana&quot;;&#xD;
+		        	}&#xD;
+		        	&#xD;
+					gp.add(new GotoviProizvodi(prim[0],k, p));&#xD;
+					prim = null;&#xD;
+		    	}	&#xD;
+			}&#xD;
+			&#xD;
+			PrintWriter writer = new PrintWriter(&quot;cenovnik.txt&quot;);&#xD;
+			for (int l = 0; l&lt; line.size(); l++) {&#xD;
+				writer.print(line.get(l));&#xD;
+				writer.println();&#xD;
+			}&#xD;
+			&#xD;
+			writer.close();&#xD;
+			&#xD;
+			reader.close();&#xD;
+		} catch (IOException e) {&#xD;
+			e.printStackTrace();&#xD;
+		}&#xD;
+		&#xD;
+		tableView.setItems(gp);&#xD;
+		Button izaberi1 = new Button(&quot;izaberi&quot;);&#xD;
+		&#xD;
+		vbox.getChildren().addAll(tableView, izaberi1);&#xD;
+				&#xD;
+			//dugme za biranje proizvoda koji se nalaze na racunu&#xD;
+			izaberi1.setOnMouseClicked(ell->{&#xD;
+				tv.getItems().clear();&#xD;
+				&#xD;
+				ObservableList&lt;GotoviProizvodi> izabrano = FXCollections.observableArrayList();&#xD;
+				izabrano = tableView.getSelectionModel().getSelectedItems();&#xD;
+				GotoviProizvodi got = izabrano.get(0);&#xD;
+				gotovi.add(got);&#xD;
+				racun.setProizvodi(gotovi);&#xD;
+				int ukupnaCena = 0;&#xD;
+				for( int i = 0 ; i&lt; gotovi.size(); i++) {&#xD;
+					ukupnaCena = ukupnaCena + gotovi.get(i).getCena();&#xD;
+					ol.add(gotovi.get(i));&#xD;
+				}&#xD;
+				&#xD;
+				racun.setUkupnaCena(ukupnaCena);&#xD;
+				cena.setText(&quot;Ukupna Cena Racuna: &quot; + racun.getUkupnaCena());&#xD;
+				&#xD;
+				vbox.getChildren().clear();&#xD;
+				&#xD;
+				tv.setItems(ol);&#xD;
+				vbox.getChildren().clear();&#xD;
+				vbox.getChildren().addAll(konobarIzabran, tv, dodajArtikal, obrisiArtikal, cena, izdajRacun, nazad);&#xD;
+				&#xD;
+			});&#xD;
+			&#xD;
+		});&#xD;
+			&#xD;
+		//dugme za izdavanje racuna &#xD;
+		izdajRacun.setOnMouseClicked(ep->{&#xD;
+		if(racun.getUkupnaCena() == 0) {&#xD;
+			Text text1 = new Text(&quot;Na Ovom Stolu Jos Uvek Ne Postoji Racun!&quot;);&#xD;
+			vbox.getChildren().addAll(text1, imageView1,dodajArtikal, izdajRacun);&#xD;
+			&#xD;
+		}else {&#xD;
+		&#xD;
+		racun.setDatum(&quot;2020-05-18&quot;);&#xD;
+		s.dodajRacun(racun);	&#xD;
+		konobar.izdavanjeRacuna(s);&#xD;
+		&#xD;
+		Text text = new Text(&quot;+++++++RACUN+++++++++++&quot;+ System.lineSeparator());&#xD;
+		&#xD;
+		String primer = &quot;Datum:&quot; + racun.getDatum() + System.lineSeparator()+ &quot;Naziv: 			Cena: &quot; + System.lineSeparator();&#xD;
+		for( int i = 0; i&lt; racun.getProizvodi().size(); i ++) {&#xD;
+			primer = primer + racun.getProizvodi().get(i).getNaziv()+ &quot;			&quot;+ racun.getProizvodi().get(i).getCena() + System.lineSeparator();&#xD;
+		}&#xD;
+		Text text1 = new Text(primer);&#xD;
+		Text text2 = new Text(System.lineSeparator() + &quot;++++++++++++++++++++++++++++&quot;+ System.lineSeparator());&#xD;
+			&#xD;
+		&#xD;
+		vbox.getChildren().clear();&#xD;
+		HBox hbox = new HBox();&#xD;
+		hbox.getChildren().addAll(zapocniNovi);&#xD;
+		vbox.getChildren().addAll(text,konobarIzabran,text1, cena, text2, hbox);&#xD;
+		s.isprazniSto();&#xD;
+		racun.setUkupnaCena(0);&#xD;
+		&#xD;
+		&#xD;
+		}});&#xD;
+			&#xD;
+		//dugme za kucanje novog racuna&#xD;
+		zapocniNovi.setOnMouseClicked(ek->{&#xD;
+			&#xD;
+			vbox.getChildren().clear();&#xD;
+			vbox.getChildren().addAll(imageView1, dodajArtikal, izdajRacun, nazad); &#xD;
+			&#xD;
+			gotovi.clear();&#xD;
+			konobar.setIme(null);&#xD;
+			konobar.setPrezime(null);&#xD;
+			racun.setRacun(null);&#xD;
+			racun.setUkupnaCena(0);&#xD;
+			&#xD;
+		});&#xD;
+			&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_lgQ8kY_9Eeur1a3JGqqQQQ" name="Konobar" method="_ljYiAI_9Eeur1a3JGqqQQQ">
+          <eAnnotations xmi:id="_lgRjoI_9Eeur1a3JGqqQQQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_lgRjoY_9Eeur1a3JGqqQQQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_lgRjoo_9Eeur1a3JGqqQQQ" type="_lgQ8kI_9Eeur1a3JGqqQQQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_lgRjo4_9Eeur1a3JGqqQQQ" name="Konobar" method="_ljYiAo_9Eeur1a3JGqqQQQ">
+          <eAnnotations xmi:id="_lgRjpo_9Eeur1a3JGqqQQQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_lgSKsI_9Eeur1a3JGqqQQQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_lgRjpI_9Eeur1a3JGqqQQQ" name="ime">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_lgRjpY_9Eeur1a3JGqqQQQ" name="prezime">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_lgSKsY_9Eeur1a3JGqqQQQ" type="_lgQ8kI_9Eeur1a3JGqqQQQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_lgSKso_9Eeur1a3JGqqQQQ" name="otvoriRestoran" method="_ljYiBo_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_lgSKs4_9Eeur1a3JGqqQQQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_lgSKtI_9Eeur1a3JGqqQQQ" name="toSting" method="_ljYiCo_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_lgSKtY_9Eeur1a3JGqqQQQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_lgSxwI_9Eeur1a3JGqqQQQ" name="dodajUFajl" method="_ljYiDI_9Eeur1a3JGqqQQQ"/>
+        <ownedOperation xmi:id="_livo0I_9Eeur1a3JGqqQQQ" name="izdavanjeRacuna" method="_ljYiCI_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_livo0Y_9Eeur1a3JGqqQQQ" name="s" type="_lgnh4I_9Eeur1a3JGqqQQQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ljDx4I_9Eeur1a3JGqqQQQ" name="prozor" method="_ljZJEI_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljDx4Y_9Eeur1a3JGqqQQQ" name="stage" type="_lioUEY_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljEY8I_9Eeur1a3JGqqQQQ" name="hBox" type="_lime4o_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljEY8Y_9Eeur1a3JGqqQQQ" name="vBox" type="_linF8Y_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljEY8o_9Eeur1a3JGqqQQQ" name="glavnaStrana" type="_lihmYY_9Eeur1a3JGqqQQQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ljEY84_9Eeur1a3JGqqQQQ" name="prozorZaPrikazKonobara" method="_ljZJFY_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljEY9I_9Eeur1a3JGqqQQQ" name="vKonobari" type="_linF8Y_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljFAAI_9Eeur1a3JGqqQQQ" name="menadzerProgram" type="_lihmYY_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljFAAY_9Eeur1a3JGqqQQQ" name="stage" type="_lioUEY_9Eeur1a3JGqqQQQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ljFAAo_9Eeur1a3JGqqQQQ" name="dodajKonobara" method="_ljZJGY_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljFAA4_9Eeur1a3JGqqQQQ" name="vbox" type="_linF8Y_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljFABI_9Eeur1a3JGqqQQQ" name="menadzerProgram" type="_lihmYY_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljFnEI_9Eeur1a3JGqqQQQ" name="stage" type="_lioUEY_9Eeur1a3JGqqQQQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ljFnEY_9Eeur1a3JGqqQQQ" name="obrisiKonobara" method="_ljZJHY_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljFnEo_9Eeur1a3JGqqQQQ" name="vKonobari" type="_linF8Y_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljGOII_9Eeur1a3JGqqQQQ" name="menadzerProgram" type="_lihmYY_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljGOIY_9Eeur1a3JGqqQQQ" name="stage" type="_lioUEY_9Eeur1a3JGqqQQQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ljGOIo_9Eeur1a3JGqqQQQ" name="prozorZaPrikazStolova" method="_ljZJIY_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljGOI4_9Eeur1a3JGqqQQQ" name="vBoxK" type="_linF8Y_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljGOJI_9Eeur1a3JGqqQQQ" name="stage" type="_lioUEY_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljGOJY_9Eeur1a3JGqqQQQ" name="konobarScene" type="_lihmYY_9Eeur1a3JGqqQQQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ljG1MI_9Eeur1a3JGqqQQQ" name="prozorZaKucanjeRacuna" method="_ljZJJY_9Eeur1a3JGqqQQQ" raisedException="_lidU8I_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljG1MY_9Eeur1a3JGqqQQQ" name="scene" type="_lihmYY_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljG1Mo_9Eeur1a3JGqqQQQ" name="vbox" type="_linF8Y_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljG1M4_9Eeur1a3JGqqQQQ" name="stage" type="_lioUEY_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljHcQI_9Eeur1a3JGqqQQQ" name="s" type="_lgnh4I_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljHcQY_9Eeur1a3JGqqQQQ" name="konobarScene" type="_lihmYY_9Eeur1a3JGqqQQQ"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_lgYRUI_9Eeur1a3JGqqQQQ" name="Menadzer">
+        <generalization xmi:id="_liz6QI_9Eeur1a3JGqqQQQ" general="_lgb7sI_9Eeur1a3JGqqQQQ"/>
+        <ownedAttribute xmi:id="_ljRNQI_9Eeur1a3JGqqQQQ" name="tip">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ljZwII_9Eeur1a3JGqqQQQ" name="Menadzer" specification="_lgZfcY_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljZwIY_9Eeur1a3JGqqQQQ" name="ime">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ljZwIo_9Eeur1a3JGqqQQQ" name="prezime">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ljZwI4_9Eeur1a3JGqqQQQ" type="_lgYRUI_9Eeur1a3JGqqQQQ" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>super(ime, prezime);&#xD;
+		tip = &quot;menadzer&quot;;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ljZwJI_9Eeur1a3JGqqQQQ" name="istorijaRacuna" specification="_lgaGgI_9Eeur1a3JGqqQQQ">
+          <language>java</language>
+          <body>StringBuilder sb = new StringBuilder();&#xD;
+		try (BufferedReader br = Files.newBufferedReader(Paths.get(&quot;racuni.txt&quot;))) {&#xD;
+&#xD;
+         // read line by line&#xD;
+         String line;&#xD;
+         while ((line = br.readLine()) != null) {&#xD;
+             sb.append(line).append(&quot;\n&quot;);&#xD;
+         }&#xD;
+&#xD;
+     } catch (IOException e) {&#xD;
+         System.err.format(&quot;IOException: %s%n&quot;, e);&#xD;
+     }&#xD;
+		System.out.println(sb);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ljZwJY_9Eeur1a3JGqqQQQ" name="prozor" specification="_ljIDUI_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljZwJo_9Eeur1a3JGqqQQQ" name="stage" type="_lioUEY_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljZwJ4_9Eeur1a3JGqqQQQ" name="hBox" type="_lime4o_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljZwKI_9Eeur1a3JGqqQQQ" name="vBox" type="_linF8Y_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljZwKY_9Eeur1a3JGqqQQQ" name="glavnaStrana" type="_lihmYY_9Eeur1a3JGqqQQQ"/>
+          <language>java</language>
+          <body>VBox vBoxM = new VBox();&#xD;
+		Scene menadzerProgram = new Scene(vBoxM, 600, 600);&#xD;
+		stage.setScene(menadzerProgram);//na klik dugmeta otvara se nova scena&#xD;
+		&#xD;
+		//nove scene koje se otvaraju ako menadzer izabere tu opciju iz menija&#xD;
+		VBox vCenovnik = new VBox();&#xD;
+		Scene cenovnikScene = new Scene(vCenovnik, 400,500);&#xD;
+		&#xD;
+		VBox vKonobari = new VBox();&#xD;
+		Scene konobariScene = new Scene(vKonobari, 400,500);&#xD;
+		&#xD;
+		VBox vRacuni = new VBox();&#xD;
+		Scene racuniScene = new Scene(vRacuni, 300,500);&#xD;
+		&#xD;
+		//opcije koje se pojavljuju u padajucem meniju&#xD;
+		MenuItem prikazCenovnika = new MenuItem(&quot;prikazi cenovnik&quot;);&#xD;
+		MenuItem prikazPica = new MenuItem(&quot;prikazi pice&quot;);&#xD;
+		MenuItem dodajPice = new MenuItem(&quot;dodaj pice&quot;);&#xD;
+		MenuItem prikazHrane = new MenuItem(&quot;prikazi hranu&quot;);&#xD;
+		MenuItem dodajHranu = new MenuItem(&quot;dodaj hranu&quot;);&#xD;
+		MenuItem prikazKonobara = new MenuItem(&quot;prikazi listu konobara&quot;);&#xD;
+		MenuItem dodajNovogKonobara = new MenuItem(&quot;dodaj novog konobara&quot;);&#xD;
+		MenuItem obrisiKonobara = new MenuItem(&quot;obrisi konobara&quot;);&#xD;
+		MenuItem prikazRacuna = new MenuItem(&quot;prikazi istoriju izdatih racuna&quot;);&#xD;
+		&#xD;
+		Menu cenovnik = new Menu(&quot;Cenovnik&quot;);&#xD;
+		cenovnik.getItems().add(prikazCenovnika);&#xD;
+		cenovnik.getItems().add(prikazPica);&#xD;
+		cenovnik.getItems().add(dodajPice);&#xD;
+		cenovnik.getItems().add(prikazHrane);&#xD;
+		cenovnik.getItems().add(dodajHranu);&#xD;
+		prikazCenovnika.setOnAction(e -> {&#xD;
+			stage.setScene(cenovnikScene);&#xD;
+			Cenovnik c = new Cenovnik();&#xD;
+			c.prozorZaPrikazCenovnika(vCenovnik, menadzerProgram, stage);&#xD;
+			});&#xD;
+		prikazPica.setOnAction(e -> {&#xD;
+			stage.setScene(cenovnikScene);&#xD;
+			Cenovnik c = new Cenovnik();&#xD;
+			c.prozorZaPrikazPica(vCenovnik, menadzerProgram, stage);&#xD;
+			});&#xD;
+		dodajPice.setOnAction(e -> {&#xD;
+			stage.setScene(cenovnikScene);&#xD;
+			Cenovnik c = new Cenovnik();&#xD;
+			c.dodajPice(vCenovnik, menadzerProgram, stage);&#xD;
+			});&#xD;
+		prikazHrane.setOnAction(e -> {&#xD;
+			stage.setScene(cenovnikScene);&#xD;
+			Cenovnik c = new Cenovnik();&#xD;
+			c.prozorZaPrikazHrane(vCenovnik, menadzerProgram, stage);&#xD;
+			});&#xD;
+		dodajHranu.setOnAction(e -> {&#xD;
+			stage.setScene(cenovnikScene);&#xD;
+			Cenovnik c = new Cenovnik();&#xD;
+			c.dodajHranu(vCenovnik, menadzerProgram, stage);&#xD;
+			});&#xD;
+		Menu konobari = new Menu(&quot;Konobari&quot;);&#xD;
+		konobari.getItems().add(prikazKonobara);&#xD;
+		konobari.getItems().add(dodajNovogKonobara);&#xD;
+		konobari.getItems().add(obrisiKonobara);&#xD;
+		prikazKonobara.setOnAction(e -> {&#xD;
+			stage.setScene(konobariScene);&#xD;
+			Konobar k = new Konobar();&#xD;
+			k.prozorZaPrikazKonobara(vKonobari, menadzerProgram, stage);&#xD;
+			});&#xD;
+		dodajNovogKonobara.setOnAction(e -> {&#xD;
+			stage.setScene(konobariScene);&#xD;
+			Konobar k = new Konobar();&#xD;
+			k.dodajKonobara(vKonobari, menadzerProgram, stage);&#xD;
+			});&#xD;
+		obrisiKonobara.setOnAction(e -> {&#xD;
+			stage.setScene(konobariScene);&#xD;
+			Konobar k = new Konobar();&#xD;
+			k.obrisiKonobara(vKonobari, menadzerProgram, stage);&#xD;
+			});&#xD;
+		Menu istorijaRacuna = new Menu(&quot;Istorija Racuna&quot;);&#xD;
+		istorijaRacuna.getItems().add(prikazRacuna);&#xD;
+		prikazRacuna.setOnAction(e -> {&#xD;
+			stage.setScene(racuniScene);&#xD;
+			Racun r = new Racun();&#xD;
+			r.prozorZaPrikazRacuna(vRacuni, menadzerProgram, stage);&#xD;
+			});&#xD;
+		&#xD;
+		//dugme odjava, pri kojoj je se vraca na glavnu stranicu&#xD;
+		Button odjava = new Button(&quot;ODJAVI SE&quot;);&#xD;
+		MenuBar menuBar = new MenuBar();&#xD;
+&#xD;
+		menuBar.getMenus().addAll(cenovnik, konobari, istorijaRacuna);	&#xD;
+		vBoxM.getChildren().add(menuBar);&#xD;
+		&#xD;
+		odjava.setOnMouseClicked(e->stage.setScene(glavnaStrana));&#xD;
+		try {&#xD;
+&#xD;
+			Image image;&#xD;
+			image = new Image(new FileInputStream(&quot;slike/logo.jpg&quot;));&#xD;
+			ImageView imageView = new ImageView(image); &#xD;
+			 &#xD;
+			imageView.setFitHeight(455); &#xD;
+			imageView.setFitWidth(600); &#xD;
+			&#xD;
+			ImageView imageView1 = new ImageView(image); &#xD;
+			 &#xD;
+			imageView1.setFitHeight(455); &#xD;
+			imageView1.setFitWidth(500); &#xD;
+			vBoxM.getChildren().addAll(imageView, odjava);&#xD;
+			&#xD;
+		} catch (FileNotFoundException e1) {&#xD;
+			e1.printStackTrace();&#xD;
+		}&#xD;
+&#xD;
+	&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_lgY4YI_9Eeur1a3JGqqQQQ" name="Menadzer">
+          <eAnnotations xmi:id="_lgY4YY_9Eeur1a3JGqqQQQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_lgY4Yo_9Eeur1a3JGqqQQQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_lgZfcI_9Eeur1a3JGqqQQQ" type="_lgYRUI_9Eeur1a3JGqqQQQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_lgZfcY_9Eeur1a3JGqqQQQ" name="Menadzer" method="_ljZwII_9Eeur1a3JGqqQQQ">
+          <eAnnotations xmi:id="_lgZfdI_9Eeur1a3JGqqQQQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_lgZfdY_9Eeur1a3JGqqQQQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_lgZfco_9Eeur1a3JGqqQQQ" name="ime">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_lgZfc4_9Eeur1a3JGqqQQQ" name="prezime">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_lgZfdo_9Eeur1a3JGqqQQQ" type="_lgYRUI_9Eeur1a3JGqqQQQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_lgaGgI_9Eeur1a3JGqqQQQ" name="istorijaRacuna" method="_ljZwJI_9Eeur1a3JGqqQQQ"/>
+        <ownedOperation xmi:id="_lizTMI_9Eeur1a3JGqqQQQ" name="dodajKonobara">
+          <ownedParameter xmi:id="_lizTMY_9Eeur1a3JGqqQQQ" name="k" type="_lgQ8kI_9Eeur1a3JGqqQQQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ljIDUI_9Eeur1a3JGqqQQQ" name="prozor" method="_ljZwJY_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljIDUY_9Eeur1a3JGqqQQQ" name="stage" type="_lioUEY_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljIqYI_9Eeur1a3JGqqQQQ" name="hBox" type="_lime4o_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljIqYY_9Eeur1a3JGqqQQQ" name="vBox" type="_linF8Y_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljIqYo_9Eeur1a3JGqqQQQ" name="glavnaStrana" type="_lihmYY_9Eeur1a3JGqqQQQ"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_lgb7sI_9Eeur1a3JGqqQQQ" name="Osoba" isAbstract="true">
+        <ownedAttribute xmi:id="_ljRNQY_9Eeur1a3JGqqQQQ" name="ime">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_ljR0UI_9Eeur1a3JGqqQQQ" name="prezime">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ljZwKo_9Eeur1a3JGqqQQQ" name="Osoba" specification="_lgdJ0o_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljZwK4_9Eeur1a3JGqqQQQ" name="ime">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ljZwLI_9Eeur1a3JGqqQQQ" name="prezime">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ljZwLY_9Eeur1a3JGqqQQQ" type="_lgb7sI_9Eeur1a3JGqqQQQ" direction="return"/>
+          <language>java</language>
+          <body>this.ime = ime;&#xD;
+		this.prezime = prezime;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ljaXMI_9Eeur1a3JGqqQQQ" name="predstaviSe" specification="_lgdw4I_9Eeur1a3JGqqQQQ">
+          <language>java</language>
+          <body>System.out.println(&quot;Ime: &quot; + ime);&#xD;
+		System.out.println(&quot;Prezime: &quot; + prezime);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_lgciwI_9Eeur1a3JGqqQQQ" name="Osoba">
+          <eAnnotations xmi:id="_lgciwY_9Eeur1a3JGqqQQQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_lgciwo_9Eeur1a3JGqqQQQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_lgdJ0Y_9Eeur1a3JGqqQQQ" type="_lgb7sI_9Eeur1a3JGqqQQQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_lgdJ0o_9Eeur1a3JGqqQQQ" name="Osoba" method="_ljZwKo_9Eeur1a3JGqqQQQ">
+          <eAnnotations xmi:id="_lgdJ1Y_9Eeur1a3JGqqQQQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_lgdJ1o_9Eeur1a3JGqqQQQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_lgdJ04_9Eeur1a3JGqqQQQ" name="ime">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_lgdJ1I_9Eeur1a3JGqqQQQ" name="prezime">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_lgdJ14_9Eeur1a3JGqqQQQ" type="_lgb7sI_9Eeur1a3JGqqQQQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_lgdw4I_9Eeur1a3JGqqQQQ" name="predstaviSe" method="_ljaXMI_9Eeur1a3JGqqQQQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_lgeX8I_9Eeur1a3JGqqQQQ" name="Racun">
+        <ownedAttribute xmi:id="_ljR0UY_9Eeur1a3JGqqQQQ" name="ukupnaCena">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_ljR0Uo_9Eeur1a3JGqqQQQ" name="datum">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_ljR0U4_9Eeur1a3JGqqQQQ" name="konobar" type="_lgQ8kI_9Eeur1a3JGqqQQQ" association="_ljdagI_9Eeur1a3JGqqQQQ"/>
+        <ownedAttribute xmi:id="_ljSbYI_9Eeur1a3JGqqQQQ" name="proizvodi" type="_lifKI4_9Eeur1a3JGqqQQQ" association="_ljhE4Y_9Eeur1a3JGqqQQQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ljaXMY_9Eeur1a3JGqqQQQ" name="Racun" specification="_li2WgI_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljaXMo_9Eeur1a3JGqqQQQ" name="konobar" type="_lgQ8kI_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljaXM4_9Eeur1a3JGqqQQQ" type="_lgeX8I_9Eeur1a3JGqqQQQ" direction="return"/>
+          <language>java</language>
+          <body>ukupnaCena = 0;&#xD;
+		this.datum = new Date().toString();&#xD;
+		this.konobar = konobar;&#xD;
+		proizvodi = new  ArrayList&lt;GotoviProizvodi>();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ljaXNI_9Eeur1a3JGqqQQQ" name="setRacun" specification="_li29kI_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljaXNY_9Eeur1a3JGqqQQQ" name="racun" type="_lgeX8I_9Eeur1a3JGqqQQQ"/>
+          <language>java</language>
+          <body>this.ukupnaCena = racun.getUkupnaCena();&#xD;
+		this.datum = racun.getDatum();&#xD;
+		this.konobar = racun.getKonobar();&#xD;
+		this.proizvodi = racun.getProizvodi();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ljaXNo_9Eeur1a3JGqqQQQ" name="kucanjeRacuna" specification="_li29ko_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljaXN4_9Eeur1a3JGqqQQQ" name="g" type="_lgMrII_9Eeur1a3JGqqQQQ"/>
+          <language>java</language>
+          <body>proizvodi.add(g);&#xD;
+		int i = proizvodi.size();&#xD;
+		ukupnaCena = ukupnaCena + proizvodi.get(i-1).getCena();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ljaXOI_9Eeur1a3JGqqQQQ" name="ispis" specification="_lgfmEo_9Eeur1a3JGqqQQQ">
+          <language>java</language>
+          <body>if(proizvodi.size() == 0) {&#xD;
+			System.out.println(&quot;Racun jos uvek nije iskucan!&quot;);&#xD;
+		}else {&#xD;
+			System.out.println(&quot;Konobar: &quot; );&#xD;
+			konobar.predstaviSe();&#xD;
+			System.out.println(&quot;Datum i vreme: &quot; + datum);&#xD;
+			System.out.println(&quot;Porudzbina: &quot;);&#xD;
+			for (int i = 0; i &lt; proizvodi.size(); i++) {&#xD;
+				System.out.println((i+1) + &quot;. proizvod: &quot; + proizvodi.get(i).getNaziv() + &quot;	cena: &quot; +proizvodi.get(i).getCena() );&#xD;
+			}&#xD;
+			System.out.println(&quot;Ukupna cena: &quot; + ukupnaCena);&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ljaXOY_9Eeur1a3JGqqQQQ" name="toSting" specification="_lggNII_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljaXOo_9Eeur1a3JGqqQQQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>String racun;&#xD;
+		&#xD;
+		racun = konobar.getIme() + &quot;@&quot; +konobar.getPrezime() + &quot;@&quot; + datum.toString() + &quot;@&quot;+String.valueOf(ukupnaCena);&#xD;
+		for (int i = 0; i &lt; proizvodi.size(); i++) {&#xD;
+			racun = racun + (&quot;@&quot; + proizvodi.get(i).getNaziv() + &quot;@&quot; + String.valueOf(proizvodi.get(i).getCena()));&#xD;
+		}&#xD;
+		&#xD;
+		return racun;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_lja-QI_9Eeur1a3JGqqQQQ" name="prozorZaPrikazRacuna" specification="_ljJ4gI_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_lja-QY_9Eeur1a3JGqqQQQ" name="vRacuni" type="_linF8Y_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_lja-Qo_9Eeur1a3JGqqQQQ" name="menadzerProgram" type="_lihmYY_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_lja-Q4_9Eeur1a3JGqqQQQ" name="stage" type="_lioUEY_9Eeur1a3JGqqQQQ"/>
+          <language>java</language>
+          <body>HBox hBox = new HBox();&#xD;
+		&#xD;
+		Label layout2 = new Label(&quot;Istorija Izdatih Racuna					&quot;);&#xD;
+		Button vratiMe2 = new Button(&quot;nazad&quot;);&#xD;
+		vratiMe2.setOnMouseClicked(e -> stage.setScene(menadzerProgram));&#xD;
+		hBox.getChildren().addAll(layout2, vratiMe2);&#xD;
+		vRacuni.getChildren().add(hBox);&#xD;
+		&#xD;
+		Text text = new Text();&#xD;
+		&#xD;
+		try {&#xD;
+			BufferedReader reader2;&#xD;
+			reader2 = new BufferedReader(new FileReader(&quot;racuni.txt&quot;));&#xD;
+			ArrayList&lt;String> line = new ArrayList&lt;String>();&#xD;
+			line.add(reader2.readLine());&#xD;
+			while (line.get(line.size()-1) != null) {&#xD;
+				line.add(reader2.readLine());&#xD;
+			}&#xD;
+			line.remove(line.size()-1); // na ovom mestu je ushvacen null i stavljen u niz&#xD;
+			&#xD;
+			String primer = null;&#xD;
+			for (int j = 0; j &lt; line.size(); j++) {&#xD;
+				String[] prim = line.get(j).split(&quot;@&quot;);&#xD;
+				&#xD;
+				if(primer == null) {&#xD;
+					primer = &quot;+++++++RACUN+++++++++++ &quot; + System.lineSeparator() + &quot;Konobar: &quot;+ prim[0] + &quot; &quot; + prim[1] + System.lineSeparator() + &quot;++++++++++++++++++++++++++++&quot;+ System.lineSeparator() + &quot;Datum: &quot;+ prim[2] + System.lineSeparator();&#xD;
+					primer = primer + &quot;++++++++++++++++++++++++++++&quot;+System.lineSeparator() + &quot;Naziv: 			Cena: &quot; + System.lineSeparator() ;&#xD;
+					&#xD;
+				}else {&#xD;
+					primer = primer+ &quot;+++++++RACUN+++++++++++ &quot; + System.lineSeparator() + &quot;Konobar: &quot;+ prim[0] + &quot; &quot; + prim[1] + System.lineSeparator() + &quot;++++++++++++++++++++++++++++&quot;+ System.lineSeparator() + &quot;Datum: &quot;+ prim[2] + System.lineSeparator();&#xD;
+					primer = primer + &quot;++++++++++++++++++++++++++++&quot;+System.lineSeparator() + &quot;Naziv: 			Cena: &quot; + System.lineSeparator() ;&#xD;
+					&#xD;
+				}&#xD;
+				&#xD;
+				for( int i = 4; i&lt; prim.length; i = i+2) {&#xD;
+					primer = primer + prim[i]+ &quot;			&quot;+ prim[i+1] + System.lineSeparator();&#xD;
+				}&#xD;
+				primer = primer + &quot;Ukupna Cena: &quot; + prim[3] + System.lineSeparator() + &quot;++++++++++++++++++++++++++++&quot;+ System.lineSeparator();&#xD;
+				&#xD;
+				prim = null;&#xD;
+			}&#xD;
+			&#xD;
+			text.setText(primer);&#xD;
+			vRacuni.getChildren().add(text);&#xD;
+			&#xD;
+			PrintWriter writer = new PrintWriter(&quot;racuni.txt&quot;);&#xD;
+			for (int l = 0; l&lt; line.size(); l++) {&#xD;
+				writer.print(line.get(l));&#xD;
+				writer.println();&#xD;
+				&#xD;
+			}&#xD;
+			&#xD;
+			writer.close();&#xD;
+			&#xD;
+			reader2.close();&#xD;
+		} catch (IOException e) {&#xD;
+			e.printStackTrace();&#xD;
+		}&#xD;
+		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_lge_AI_9Eeur1a3JGqqQQQ" name="Racun">
+          <eAnnotations xmi:id="_lge_AY_9Eeur1a3JGqqQQQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_lge_Ao_9Eeur1a3JGqqQQQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_lgfmEY_9Eeur1a3JGqqQQQ" type="_lgeX8I_9Eeur1a3JGqqQQQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_lgfmEo_9Eeur1a3JGqqQQQ" name="ispis" method="_ljaXOI_9Eeur1a3JGqqQQQ"/>
+        <ownedOperation xmi:id="_lggNII_9Eeur1a3JGqqQQQ" name="toSting" method="_ljaXOY_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_lggNIY_9Eeur1a3JGqqQQQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_li2WgI_9Eeur1a3JGqqQQQ" name="Racun" method="_ljaXMY_9Eeur1a3JGqqQQQ">
+          <eAnnotations xmi:id="_li2Wgo_9Eeur1a3JGqqQQQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_li2Wg4_9Eeur1a3JGqqQQQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_li2WgY_9Eeur1a3JGqqQQQ" name="konobar" type="_lgQ8kI_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_li2WhI_9Eeur1a3JGqqQQQ" type="_lgeX8I_9Eeur1a3JGqqQQQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_li29kI_9Eeur1a3JGqqQQQ" name="setRacun" method="_ljaXNI_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_li29kY_9Eeur1a3JGqqQQQ" name="racun" type="_lgeX8I_9Eeur1a3JGqqQQQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_li29ko_9Eeur1a3JGqqQQQ" name="kucanjeRacuna" method="_ljaXNo_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_li29k4_9Eeur1a3JGqqQQQ" name="g" type="_lgMrII_9Eeur1a3JGqqQQQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ljJ4gI_9Eeur1a3JGqqQQQ" name="prozorZaPrikazRacuna" method="_lja-QI_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljJ4gY_9Eeur1a3JGqqQQQ" name="vRacuni" type="_linF8Y_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljJ4go_9Eeur1a3JGqqQQQ" name="menadzerProgram" type="_lihmYY_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_ljJ4g4_9Eeur1a3JGqqQQQ" name="stage" type="_lioUEY_9Eeur1a3JGqqQQQ"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_lgipYI_9Eeur1a3JGqqQQQ" name="Restoran">
+        <ownedAttribute xmi:id="_ljTpgI_9Eeur1a3JGqqQQQ" name="naziv">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_ljTpgY_9Eeur1a3JGqqQQQ" name="stolovi" type="_lifKI4_9Eeur1a3JGqqQQQ" association="_ljhr8I_9Eeur1a3JGqqQQQ"/>
+        <ownedAttribute xmi:id="_ljUQkY_9Eeur1a3JGqqQQQ" name="menadzer" type="_lgYRUI_9Eeur1a3JGqqQQQ" association="_ljdago_9Eeur1a3JGqqQQQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_lja-RI_9Eeur1a3JGqqQQQ" name="Restoran" specification="_li5Z0I_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_lja-RY_9Eeur1a3JGqqQQQ" name="naziv">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_lja-Ro_9Eeur1a3JGqqQQQ" name="menadzer" type="_lgYRUI_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_lja-R4_9Eeur1a3JGqqQQQ" type="_lgipYI_9Eeur1a3JGqqQQQ" direction="return"/>
+          <language>java</language>
+          <body>this.naziv = naziv;&#xD;
+		stolovi = new ArrayList&lt;Sto> ();&#xD;
+		this.menadzer = menadzer;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_lja-SI_9Eeur1a3JGqqQQQ" name="dodajSto" specification="_li6A4I_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_lja-SY_9Eeur1a3JGqqQQQ" name="s" type="_lgnh4I_9Eeur1a3JGqqQQQ"/>
+          <language>java</language>
+          <body>stolovi.add(s);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_lja-So_9Eeur1a3JGqqQQQ" name="ispis" specification="_lgj3gI_9Eeur1a3JGqqQQQ">
+          <language>java</language>
+          <body>System.out.println(&quot;-----------**RESTORAN**----------&quot;);&#xD;
+		System.out.println(&quot;Restoran: &quot; + naziv);&#xD;
+		System.out.println(&quot;Menadzer: &quot;);&#xD;
+		menadzer.predstaviSe();&#xD;
+		for( int i = 0; i&lt; stolovi.size(); i++) {&#xD;
+			stolovi.get(i).ispis();&#xD;
+		}&#xD;
+		&#xD;
+		System.out.println(&quot;-----------************----------&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_lgj3gI_9Eeur1a3JGqqQQQ" name="ispis" method="_lja-So_9Eeur1a3JGqqQQQ"/>
+        <ownedOperation xmi:id="_li5Z0I_9Eeur1a3JGqqQQQ" name="Restoran" method="_lja-RI_9Eeur1a3JGqqQQQ">
+          <eAnnotations xmi:id="_li5Z04_9Eeur1a3JGqqQQQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_li5Z1I_9Eeur1a3JGqqQQQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_li5Z0Y_9Eeur1a3JGqqQQQ" name="naziv">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_li5Z0o_9Eeur1a3JGqqQQQ" name="menadzer" type="_lgYRUI_9Eeur1a3JGqqQQQ"/>
+          <ownedParameter xmi:id="_li5Z1Y_9Eeur1a3JGqqQQQ" type="_lgipYI_9Eeur1a3JGqqQQQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_li6A4I_9Eeur1a3JGqqQQQ" name="dodajSto" method="_lja-SI_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_li6A4Y_9Eeur1a3JGqqQQQ" name="s" type="_lgnh4I_9Eeur1a3JGqqQQQ"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_lglFoI_9Eeur1a3JGqqQQQ" name="Sirovina">
+        <ownedAttribute xmi:id="_ljU3oI_9Eeur1a3JGqqQQQ" name="naziv">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_ljU3oY_9Eeur1a3JGqqQQQ" name="kolicina">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ljblUI_9Eeur1a3JGqqQQQ" name="Sirovina" specification="_lglssI_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljblUY_9Eeur1a3JGqqQQQ" name="naziv">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ljblUo_9Eeur1a3JGqqQQQ" name="kolicina">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ljblU4_9Eeur1a3JGqqQQQ" type="_lglFoI_9Eeur1a3JGqqQQQ" direction="return"/>
+          <language>java</language>
+          <body>this.naziv = naziv;&#xD;
+		this.kolicina = kolicina;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ljblVI_9Eeur1a3JGqqQQQ" name="dodajKolicinu" specification="_lgmTw4_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljblVY_9Eeur1a3JGqqQQQ" name="k">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>kolicina = kolicina + k;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ljblVo_9Eeur1a3JGqqQQQ" name="ispis" specification="_lgm60I_9Eeur1a3JGqqQQQ">
+          <language>java</language>
+          <body>System.out.println(&quot;Naziv: &quot; + getNaziv());&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_lglssI_9Eeur1a3JGqqQQQ" name="Sirovina" method="_ljblUI_9Eeur1a3JGqqQQQ">
+          <eAnnotations xmi:id="_lgmTwI_9Eeur1a3JGqqQQQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_lgmTwY_9Eeur1a3JGqqQQQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_lglssY_9Eeur1a3JGqqQQQ" name="naziv">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_lglsso_9Eeur1a3JGqqQQQ" name="kolicina">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_lgmTwo_9Eeur1a3JGqqQQQ" type="_lglFoI_9Eeur1a3JGqqQQQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_lgmTw4_9Eeur1a3JGqqQQQ" name="dodajKolicinu" method="_ljblVI_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_lgmTxI_9Eeur1a3JGqqQQQ" name="k">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_lgm60I_9Eeur1a3JGqqQQQ" name="ispis" method="_ljblVo_9Eeur1a3JGqqQQQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_lgnh4I_9Eeur1a3JGqqQQQ" name="Sto">
+        <ownedAttribute xmi:id="_ljVesI_9Eeur1a3JGqqQQQ" name="id">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_ljVesY_9Eeur1a3JGqqQQQ" name="racun" type="_lgeX8I_9Eeur1a3JGqqQQQ" association="_ljeBkI_9Eeur1a3JGqqQQQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ljblV4_9Eeur1a3JGqqQQQ" name="Sto" specification="_lgoI9I_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljblWI_9Eeur1a3JGqqQQQ" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ljblWY_9Eeur1a3JGqqQQQ" type="_lgnh4I_9Eeur1a3JGqqQQQ" direction="return"/>
+          <language>java</language>
+          <body>this.id = id;&#xD;
+		racun = null;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ljblWo_9Eeur1a3JGqqQQQ" name="dodajRacun" specification="_li7PAI_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljblW4_9Eeur1a3JGqqQQQ" name="r" type="_lgeX8I_9Eeur1a3JGqqQQQ"/>
+          <language>java</language>
+          <body>racun = r;&#xD;
+		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ljcMYI_9Eeur1a3JGqqQQQ" name="stanje" specification="_lgowA4_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_ljcMYY_9Eeur1a3JGqqQQQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if(racun == null) {&#xD;
+			return true; //sto je prazan&#xD;
+		}else {&#xD;
+			return false;&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ljcMYo_9Eeur1a3JGqqQQQ" name="isprazniSto" specification="_lgpXEI_9Eeur1a3JGqqQQQ">
+          <language>java</language>
+          <body>racun = null;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ljcMY4_9Eeur1a3JGqqQQQ" name="ispis" specification="_lgpXEY_9Eeur1a3JGqqQQQ">
+          <language>java</language>
+          <body>System.out.println(&quot;---------STO &quot; + id + &quot;------------&quot;);&#xD;
+		if(stanje() == true) {&#xD;
+			System.out.println(&quot;Sto je slobodan. Ne postoji racun!&quot;);&#xD;
+		}else {&#xD;
+			System.out.println(&quot;Sto je zauzet!&quot;);&#xD;
+			racun.ispis();&#xD;
+		}&#xD;
+		System.out.println(&quot;--------------&quot;);&#xD;
+		&#xD;
+		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_lgnh4Y_9Eeur1a3JGqqQQQ" name="Sto">
+          <eAnnotations xmi:id="_lgoI8I_9Eeur1a3JGqqQQQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_lgoI8Y_9Eeur1a3JGqqQQQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_lgoI84_9Eeur1a3JGqqQQQ" type="_lgnh4I_9Eeur1a3JGqqQQQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_lgoI9I_9Eeur1a3JGqqQQQ" name="Sto" method="_ljblV4_9Eeur1a3JGqqQQQ">
+          <eAnnotations xmi:id="_lgowAI_9Eeur1a3JGqqQQQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_lgowAY_9Eeur1a3JGqqQQQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_lgoI9Y_9Eeur1a3JGqqQQQ" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_lgowAo_9Eeur1a3JGqqQQQ" type="_lgnh4I_9Eeur1a3JGqqQQQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_lgowA4_9Eeur1a3JGqqQQQ" name="stanje" method="_ljcMYI_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_lgowBI_9Eeur1a3JGqqQQQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_lgpXEI_9Eeur1a3JGqqQQQ" name="isprazniSto" method="_ljcMYo_9Eeur1a3JGqqQQQ"/>
+        <ownedOperation xmi:id="_lgpXEY_9Eeur1a3JGqqQQQ" name="ispis" method="_ljcMY4_9Eeur1a3JGqqQQQ"/>
+        <ownedOperation xmi:id="_li7PAI_9Eeur1a3JGqqQQQ" name="dodajRacun" method="_ljblWo_9Eeur1a3JGqqQQQ">
+          <ownedParameter xmi:id="_li7PAY_9Eeur1a3JGqqQQQ" name="r" type="_lgeX8I_9Eeur1a3JGqqQQQ"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ljdagI_9Eeur1a3JGqqQQQ" name="" memberEnd="_ljR0U4_9Eeur1a3JGqqQQQ _ljdagY_9Eeur1a3JGqqQQQ">
+        <ownedEnd xmi:id="_ljdagY_9Eeur1a3JGqqQQQ" name="" type="_lgeX8I_9Eeur1a3JGqqQQQ" association="_ljdagI_9Eeur1a3JGqqQQQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ljdago_9Eeur1a3JGqqQQQ" name="" memberEnd="_ljUQkY_9Eeur1a3JGqqQQQ _ljdag4_9Eeur1a3JGqqQQQ">
+        <ownedEnd xmi:id="_ljdag4_9Eeur1a3JGqqQQQ" name="" type="_lgipYI_9Eeur1a3JGqqQQQ" association="_ljdago_9Eeur1a3JGqqQQQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ljeBkI_9Eeur1a3JGqqQQQ" name="" memberEnd="_ljVesY_9Eeur1a3JGqqQQQ _ljeBkY_9Eeur1a3JGqqQQQ">
+        <ownedEnd xmi:id="_ljeBkY_9Eeur1a3JGqqQQQ" name="" type="_lgnh4I_9Eeur1a3JGqqQQQ" association="_ljeBkI_9Eeur1a3JGqqQQQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ljf2wI_9Eeur1a3JGqqQQQ" name="" memberEnd="_ljf2wY_9Eeur1a3JGqqQQQ _ljM70I_9Eeur1a3JGqqQQQ">
+        <ownedEnd xmi:id="_ljf2wY_9Eeur1a3JGqqQQQ" name="" type="_lgGkgI_9Eeur1a3JGqqQQQ" association="_ljf2wI_9Eeur1a3JGqqQQQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ljgd0Y_9Eeur1a3JGqqQQQ" name="" memberEnd="_ljgd0o_9Eeur1a3JGqqQQQ _ljPYEY_9Eeur1a3JGqqQQQ">
+        <ownedEnd xmi:id="_ljgd0o_9Eeur1a3JGqqQQQ" name="" type="_lgMrII_9Eeur1a3JGqqQQQ" association="_ljgd0Y_9Eeur1a3JGqqQQQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ljhE4Y_9Eeur1a3JGqqQQQ" name="" memberEnd="_ljhE4o_9Eeur1a3JGqqQQQ _ljSbYI_9Eeur1a3JGqqQQQ">
+        <ownedEnd xmi:id="_ljhE4o_9Eeur1a3JGqqQQQ" name="" type="_lgeX8I_9Eeur1a3JGqqQQQ" association="_ljhE4Y_9Eeur1a3JGqqQQQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ljhr8I_9Eeur1a3JGqqQQQ" name="" memberEnd="_ljhr8Y_9Eeur1a3JGqqQQQ _ljTpgY_9Eeur1a3JGqqQQQ">
+        <ownedEnd xmi:id="_ljhr8Y_9Eeur1a3JGqqQQQ" name="" type="_lgipYI_9Eeur1a3JGqqQQQ" association="_ljhr8I_9Eeur1a3JGqqQQQ"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_lVM8Eo_9Eeur1a3JGqqQQQ">
+      <eAnnotations xmi:id="_lVNjII_9Eeur1a3JGqqQQQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_lVNjIY_9Eeur1a3JGqqQQQ" base_Package="_lQvS0I_9Eeur1a3JGqqQQQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_lgHyoo_9Eeur1a3JGqqQQQ" base_Element="_lgHLkI_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_lgN5Qo_9Eeur1a3JGqqQQQ" base_Element="_lgNSMI_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_lgY4Y4_9Eeur1a3JGqqQQQ" base_Element="_lgY4YI_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_lgdJ0I_9Eeur1a3JGqqQQQ" base_Element="_lgciwI_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_lgfmEI_9Eeur1a3JGqqQQQ" base_Element="_lge_AI_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_lgoI8o_9Eeur1a3JGqqQQQ" base_Element="_lgnh4Y_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Reference xmi:id="_lict4I_9Eeur1a3JGqqQQQ" base_Element="_licG0I_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Reference xmi:id="_lict4o_9Eeur1a3JGqqQQQ" base_Element="_lict4Y_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Reference xmi:id="_lidU8Y_9Eeur1a3JGqqQQQ" base_Element="_lidU8I_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Reference xmi:id="_lid8AI_9Eeur1a3JGqqQQQ" base_Element="_lidU8o_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Reference xmi:id="_lid8Ao_9Eeur1a3JGqqQQQ" base_Element="_lid8AY_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Reference xmi:id="_liejEI_9Eeur1a3JGqqQQQ" base_Element="_lid8A4_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Reference xmi:id="_lifKII_9Eeur1a3JGqqQQQ" base_Element="_liejEY_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Reference xmi:id="_lifKIo_9Eeur1a3JGqqQQQ" base_Element="_lifKIY_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Reference xmi:id="_lifxMI_9Eeur1a3JGqqQQQ" base_Element="_lifKI4_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Reference xmi:id="_ligYQI_9Eeur1a3JGqqQQQ" base_Element="_lifxMY_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Reference xmi:id="_ligYQo_9Eeur1a3JGqqQQQ" base_Element="_ligYQY_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Reference xmi:id="_lig_UY_9Eeur1a3JGqqQQQ" base_Element="_lig_UI_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Reference xmi:id="_lihmYI_9Eeur1a3JGqqQQQ" base_Element="_lig_Uo_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Reference xmi:id="_lihmYo_9Eeur1a3JGqqQQQ" base_Element="_lihmYY_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Reference xmi:id="_liiNcI_9Eeur1a3JGqqQQQ" base_Element="_lihmY4_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Reference xmi:id="_lii0gI_9Eeur1a3JGqqQQQ" base_Element="_liiNcY_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Reference xmi:id="_lii0go_9Eeur1a3JGqqQQQ" base_Element="_lii0gY_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Reference xmi:id="_lijbkI_9Eeur1a3JGqqQQQ" base_Element="_lii0g4_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Reference xmi:id="_lijbko_9Eeur1a3JGqqQQQ" base_Element="_lijbkY_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Reference xmi:id="_likCoI_9Eeur1a3JGqqQQQ" base_Element="_lijbk4_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Reference xmi:id="_likpsI_9Eeur1a3JGqqQQQ" base_Element="_likCoY_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Reference xmi:id="_likpso_9Eeur1a3JGqqQQQ" base_Element="_likpsY_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Reference xmi:id="_lilQwI_9Eeur1a3JGqqQQQ" base_Element="_likps4_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Reference xmi:id="_lil30I_9Eeur1a3JGqqQQQ" base_Element="_lilQwY_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Reference xmi:id="_lil30o_9Eeur1a3JGqqQQQ" base_Element="_lil30Y_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Reference xmi:id="_lime4Y_9Eeur1a3JGqqQQQ" base_Element="_lime4I_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Reference xmi:id="_linF8I_9Eeur1a3JGqqQQQ" base_Element="_lime4o_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Reference xmi:id="_linF8o_9Eeur1a3JGqqQQQ" base_Element="_linF8Y_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Reference xmi:id="_lintAY_9Eeur1a3JGqqQQQ" base_Element="_lintAI_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Reference xmi:id="_lioUEI_9Eeur1a3JGqqQQQ" base_Element="_lintAo_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Reference xmi:id="_lioUEo_9Eeur1a3JGqqQQQ" base_Element="_lioUEY_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Reference xmi:id="_lipiMY_9Eeur1a3JGqqQQQ" base_Element="_lipiMI_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Reference xmi:id="_liqJQI_9Eeur1a3JGqqQQQ" base_Element="_lipiMo_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Reference xmi:id="_liqwUI_9Eeur1a3JGqqQQQ" base_Element="_liqJQY_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Reference xmi:id="_litMkI_9Eeur1a3JGqqQQQ" base_Element="_lislgI_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Reference xmi:id="_litzoI_9Eeur1a3JGqqQQQ" base_Element="_litMkY_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_lizTMo_9Eeur1a3JGqqQQQ" base_Element="_lizTMI_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Reference xmi:id="_li1IYI_9Eeur1a3JGqqQQQ" base_Element="_li0hUI_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Reference xmi:id="_li1vcI_9Eeur1a3JGqqQQQ" base_Element="_li1IYY_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Reference xmi:id="_li1vco_9Eeur1a3JGqqQQQ" base_Element="_li1vcY_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Generics xmi:id="_ljOJ8I_9Eeur1a3JGqqQQQ" genericsValue="GotoviProizvodi" base_Element="_ljM70I_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Generics xmi:id="_ljP_II_9Eeur1a3JGqqQQQ" genericsValue="Sirovina" base_Element="_ljPYEY_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Generics xmi:id="_ljSbYY_9Eeur1a3JGqqQQQ" genericsValue="GotoviProizvodi" base_Element="_ljSbYI_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Generics xmi:id="_ljUQkI_9Eeur1a3JGqqQQQ" genericsValue="Sto" base_Element="_ljTpgY_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Reference xmi:id="_ljgd0I_9Eeur1a3JGqqQQQ" base_Element="_ljf2wI_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Reference xmi:id="_ljhE4I_9Eeur1a3JGqqQQQ" base_Element="_ljgd0Y_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Reference xmi:id="_ljhE44_9Eeur1a3JGqqQQQ" base_Element="_ljhE4Y_9Eeur1a3JGqqQQQ"/>
+  <UMLLabProfile:Reference xmi:id="_ljhr8o_9Eeur1a3JGqqQQQ" base_Element="_ljhr8I_9Eeur1a3JGqqQQQ"/>
+</xmi:XMI>
