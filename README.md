@@ -1,2 +1,12 @@
 # MaturskiRad
-Program for managing catering establishments
+Restaurant Management Application - April 2021.
+
+The "Restaurant Management Application" is a Java project developed in April 2021 under the guidance of Milan Stankovic. Created during my time at Gymnasium Jovan Jovanovic Zmaj in the IT department, this application serves to manage catering establishments. It is divided into two main sections, each catering to specific roles within the establishment.
+
+The managerial part of the project empowers managers with various functionalities for data manipulation. This includes modifying, adding, or removing data. The application primarily deals with information about items that the restaurant possesses, which collectively form its menu. The menu can be edited, updated with new items, outdated items can be removed, and the prices of existing items can be adjusted. Similar options are available for managing data related to waitstaff. All waitstaff members are stored in a unified database with their names and surnames. Managers have the capability to add or remove waitstaff members as needed. Another crucial managerial feature is the ability to view a list of all bills issued within a specific time frame. This function is essential for expense tracking, cost justification, and gathering sales data on a monthly or annual basis.
+
+The application's second part is designed for the use of restaurant waitstaff. Their access privileges are restricted compared to managers, leading to the division of the application into these two segments. When waitstaff open the application, they are presented with a layout of tables within the restaurant. Clicking on a table provides them with the option to create a bill for that specific table. During bill creation, it's important to designate the serving waitstaff. Afterward, the waitstaff can select the items the guest has ordered. When it's time to process payment, the waitstaff can generate the bill, displaying a comprehensive list of ordered items, their prices, and the final bill amount.
+
+Additionally, waitstaff can continually create new bills on the same table until the active bill is settled. As long as a bill remains unfinished, the corresponding table is considered occupied.
+
+In summary, the "Restaurant Management Application" you developed offers a comprehensive solution for catering establishment management. It facilitates data management for both managers and waitstaff, allowing for efficient menu updates, waiter tracking, and bill generation.
